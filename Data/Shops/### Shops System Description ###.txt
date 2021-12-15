@@ -7,6 +7,9 @@
 // == File is a part of IGCN Group MuOnline Server files.
 // ============================================================
 //
+// ### Shop::Tab ###
+//	Id: Index of shop tab, 1-5
+//
 // ### Shop::Item ###
 //	Cat: Category of an item - refer to ItemList.xml
 //	Index: Index of an item - refer to ItemList.xml

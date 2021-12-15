@@ -19,5 +19,7 @@
 	<String Id="7" Tag="Grow Lancer" />	
 	<String Id="8" Tag="Rune Wizard" />	
 	<String Id="9" Tag="Slayer" />	
-	<String Id="10" Tag="Gun Crusher" />		
+	<String Id="10" Tag="Gun Crusher" />
+	<String Id="11" Tag="Light Wizard" />
+	<String Id="12" Tag="Lemuria Mage" />	
 </ChangeClassCMD>

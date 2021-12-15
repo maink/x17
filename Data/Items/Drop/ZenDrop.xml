@@ -148,4 +148,6 @@
 	<Map Number="132" MinMoneyCount="100" MaxMoneyCount="100" Disable="0" /> <!-- Red Smoke Icarus -->
 	<Map Number="133" MinMoneyCount="100" MaxMoneyCount="100" Disable="0" /> <!-- Arenil Temple -->
 	<Map Number="134" MinMoneyCount="100" MaxMoneyCount="100" Disable="0" /> <!-- Ashy Aida -->
+	<Map Number="135" MinMoneyCount="100" MaxMoneyCount="100" Disable="0" /> <!-- Old Kethotum -->
+	<Map Number="136" MinMoneyCount="100" MaxMoneyCount="100" Disable="0" /> <!-- Blaze Kethotum -->
 </ZenDropSystem>

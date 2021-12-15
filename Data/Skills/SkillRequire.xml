@@ -44,4 +44,6 @@
 	<Skill Index="2005" ItemGroup="12" ItemIndex="495" ReqIndex="2004" ReqMasterSkillIndex="826" ReqMasterPoint="10" />
 	<Skill Index="2012" ItemGroup="12" ItemIndex="162" ReqIndex="55" ReqMasterSkillIndex="490" ReqMasterPoint="10" />
 	<Skill Index="2013" ItemGroup="12" ItemIndex="163" ReqIndex="13" ReqMasterSkillIndex="484" ReqMasterPoint="10" />
+	<Skill Index="243" ItemGroup="15" ItemIndex="49" ReqIndex="242" ReqMasterSkillIndex="847" ReqMasterPoint="10" />
+	<Skill Index="247" ItemGroup="15" ItemIndex="53" ReqIndex="246" ReqMasterSkillIndex="856" ReqMasterPoint="10" />	
 </SkillRequire>

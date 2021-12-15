@@ -22,6 +22,8 @@ CLASS_GROWLANCER									  = 7	-- Grow Lancer, Mirage Lancer
 CLASS_RUNEWIZARD									  = 8	-- Rune Wizard, Rune Spell Master, Grand Rune Master
 CLASS_SLAYER									  	  = 9	-- Slayer, Royal Slayer, Master Slayer, Slaughterer
 CLASS_GUNCRUSHER									  = 10	-- Gun Crusher, Gun Breaker, Master Gun Breaker, Heist Gun Crusher
+CLASS_LIGHTWIZARD									  = 11	-- Light Wizard, 
+CLASS_LEMURIAMAGE									  = 12	-- 
 
 -- Character Damage - Fist Fighting - (Dark Wizard, Soul Master, Grand Master)
 function WizardDamageCalc(Strength, Dexterity, Vitality, Energy)
@@ -201,6 +203,34 @@ function GunCrusherDamageCalc(Strength, Dexterity, Vitality, Energy)
 	
 	AttackDamageMinLeft = Strength / 8 -- Minimum Left Hand Damage
 	AttackDamageMinRight = Strength / 8 -- Minimum Right Hand Damage
+	AttackDamageMaxLeft = Strength / 5 -- Maximum Left Hand Damage
+	AttackDamageMaxRight = Strength / 5 -- Maximum Right Hand Damage
+	
+	return AttackDamageMinLeft, AttackDamageMinRight, AttackDamageMaxLeft, AttackDamageMaxRight
+end
+
+function LightWizardDamageCalc(Strength, Dexterity, Vitality, Energy)
+	local AttackDamageMinLeft = 0
+	local AttackDamageMaxLeft = 0
+	local AttackDamageMinRight = 0
+	local AttackDamageMaxRight = 0
+	
+	AttackDamageMinLeft = Strength / 8 -- Minimum Left Hand Damage
+	AttackDamageMinRight = Strength / 8 -- Minimum Right Hand Damage
+	AttackDamageMaxLeft = Strength / 4 -- Maximum Left Hand Damage
+	AttackDamageMaxRight = Strength / 4 -- Maximum Right Hand Damage
+	
+	return AttackDamageMinLeft, AttackDamageMinRight, AttackDamageMaxLeft, AttackDamageMaxRight
+end
+
+function LemuriaMageDamageCalc(Strength, Dexterity, Vitality, Energy)
+	local AttackDamageMinLeft = 0
+	local AttackDamageMaxLeft = 0
+	local AttackDamageMinRight = 0
+	local AttackDamageMaxRight = 0
+	
+	AttackDamageMinLeft = Strength / 8 -- Minimum Left Hand Damage
+	AttackDamageMinRight = Strength / 8 -- Minimum Right Hand Damage
 	AttackDamageMaxLeft = Strength / 4 -- Maximum Left Hand Damage
 	AttackDamageMaxRight = Strength / 4 -- Maximum Right Hand Damage
 	
@@ -345,6 +375,28 @@ function GunCrusherMagicDamageCalc(Energy, IsSpecialBuff)
 	return MagicDamageMin, MagicDamageMax
 end
 
+-- Character Magic Damage - 
+function LightWizardMagicDamageCalc(Energy)
+	local MagicDamageMin = 0
+	local MagicDamageMax = 0
+	
+	MagicDamageMin = Energy / 5 -- Minimum Magic Damage
+	MagicDamageMax = Energy / 3 -- Maximum Magic Damage
+	
+	return MagicDamageMin, MagicDamageMax
+end
+
+-- Character Magic Damage - (Dark Wizard, Soul Master, Grand Master)
+function LemuriaMageMagicDamageCalc(Energy)
+	local MagicDamageMin = 0
+	local MagicDamageMax = 0
+	
+	MagicDamageMin = Energy / 5 -- Minimum Magic Damage
+	MagicDamageMax = Energy / 3 -- Maximum Magic Damage
+	
+	return MagicDamageMin, MagicDamageMax
+end
+
 -- Character Attack Speed - for Anti-Hack purpose only, does not take effect in Game for versions lower than w Season 8 Episode 3
 function CalcAttackSpeed(Class, Dexterity)
 	local AttackSpeed = 0
@@ -383,6 +435,12 @@ function CalcAttackSpeed(Class, Dexterity)
 	elseif(Class == CLASS_GUNCRUSHER) then
 		AttackSpeed = Dexterity / 20
 		MagicSpeed = Dexterity / 20
+	elseif(Class == CLASS_LIGHTWIZARD) then
+		AttackSpeed = Dexterity / 20
+		MagicSpeed = Dexterity / 10
+	elseif(Class == CLASS_LEMURIAMAGE) then
+		AttackSpeed = Dexterity / 20
+		MagicSpeed = Dexterity / 10
 	end
 	
 	return AttackSpeed, MagicSpeed
@@ -415,6 +473,10 @@ function CalcAttackSuccessRate_PvM(Class, Strength, Dexterity, Vitality, Energy,
 		AttackSuccessRate = TotalLevel * 5 + Dexterity * 1.5 + Strength / 4
 	elseif(Class == CLASS_GUNCRUSHER) then
 		AttackSuccessRate = TotalLevel * 5 + Dexterity * 1.5 + Strength / 4
+	elseif(Class == CLASS_LIGHTWIZARD) then
+		AttackSuccessRate = TotalLevel * 5 + Dexterity * 1.5 + Strength / 4
+	elseif(Class == CLASS_LEMURIAMAGE) then
+		AttackSuccessRate = TotalLevel * 5 + Dexterity * 1.5 + Strength / 2
 	end
 	
 	return AttackSuccessRate
@@ -447,6 +509,10 @@ function CalcDefenseSuccessRate_PvM(Class, Strength, Dexterity, Vitality, Energy
 		DefenseSuccessRate = Dexterity / 3
 	elseif(Class == CLASS_GUNCRUSHER) then
 		DefenseSuccessRate = Dexterity / 4
+	elseif(Class == CLASS_LIGHTWIZARD) then
+		DefenseSuccessRate = Dexterity / 3
+	elseif(Class == CLASS_LEMURIAMAGE) then
+		DefenseSuccessRate = Dexterity / 3
 	end
 	
 	return DefenseSuccessRate
@@ -486,6 +552,10 @@ function CalcDefense(Class, Dexterity, IsSpecialBuff)
 		else
 			Defense = Dexterity / 4
 		end
+	elseif(Class == CLASS_LIGHTWIZARD) then
+		Defense = Dexterity / 3
+	elseif(Class == CLASS_LEMURIAMAGE) then
+		Defense = Dexterity / 4
 	end
 	
 	return Defense
@@ -518,6 +588,10 @@ function CalcAttackSuccessRate_PvP(Class, Strength, Dexterity, Vitality, Energy,
 		AttackRate = Dexterity * 2.5 + 3 * TotalLevel
 	elseif(Class == CLASS_GUNCRUSHER) then
 		AttackRate = Dexterity * 3.0 + 3 * TotalLevel
+	elseif(Class == CLASS_LIGHTWIZARD) then
+		AttackRate = Dexterity * 4 + 3 * TotalLevel
+	elseif(Class == CLASS_LEMURIAMAGE) then
+		AttackRate = Dexterity * 4 + 3 * TotalLevel
 	end
 	
 	return AttackRate
@@ -550,6 +624,10 @@ function CalcDefenseSuccessRate_PvP(Class, Strength, Dexterity, Vitality, Energy
 		DefenseRate = Dexterity / 3 + 2 * TotalLevel
 	elseif(Class == CLASS_GUNCRUSHER) then
 		DefenseRate = Dexterity / 3 + 2 * TotalLevel
+	elseif(Class == CLASS_LIGHTWIZARD) then
+		DefenseRate = Dexterity / 4 + 2 * TotalLevel
+	elseif(Class == CLASS_LEMURIAMAGE) then
+		DefenseRate = Dexterity / 4 + 2 * TotalLevel
 	end
 	
 	return DefenseRate
@@ -593,6 +671,12 @@ function ElementalDamageCalc(Class, Strength, Dexterity, Vitality, Energy, ItemM
 	elseif(Class == CLASS_GUNCRUSHER) then
 		MinDamage = ItemMinDamage + (Energy / 5)
 		MaxDamage = ItemMaxDamage + (Energy / 4)
+	elseif(Class == CLASS_LIGHTWIZARD) then
+		MinDamage = ItemMinDamage + (Energy / 5)
+		MaxDamage = ItemMaxDamage + (Energy / 3)
+	elseif(Class == CLASS_LEMURIAMAGE) then
+		MinDamage = ItemMinDamage + (Dexterity / 8)
+		MaxDamage = ItemMaxDamage + (Dexterity / 5)
 	end
 	
 	return MinDamage, MaxDamage
@@ -625,6 +709,10 @@ function ElementalAttackRateCalc_MvP(Class, NormalLevel, MasterLevel, Strength, 
 		AttackSuccessRate = (3 * Dexterity / 2) + (5 * TotalLevel) + (Strength / 4)
 	elseif(Class == CLASS_GUNCRUSHER) then
 		AttackSuccessRate = (3 * Dexterity / 2) + (5 * TotalLevel) + (Strength / 4)
+	elseif(Class == CLASS_LIGHTWIZARD) then
+		AttackSuccessRate = (3 * Dexterity / 2) + (5 * TotalLevel) + (Strength / 4)
+	elseif(Class == CLASS_LEMURIAMAGE) then
+		AttackSuccessRate = (3 * Dexterity / 2) + (5 * TotalLevel) + (Strength / 4)
 	end
 	
 	return AttackSuccessRate
@@ -656,6 +744,10 @@ function ElementalAttackRateCalc_PvP(Class, NormalLevel, MasterLevel, Strength, 
 	elseif(Class == CLASS_SLAYER) then
 		AttackSuccessRate = (3 * Dexterity / 2) + (5 * TotalLevel) + (Strength / 4)
 	elseif(Class == CLASS_GUNCRUSHER) then
+		AttackSuccessRate = (3 * Dexterity / 2) + (5 * TotalLevel) + (Strength / 4)
+	elseif(Class == CLASS_LIGHTWIZARD) then
+		AttackSuccessRate = (3 * Dexterity / 2) + (5 * TotalLevel) + (Strength / 4)
+	elseif(Class == CLASS_LEMURIAMAGE) then
 		AttackSuccessRate = (3 * Dexterity / 2) + (5 * TotalLevel) + (Strength / 4)
 	end
 	
@@ -692,6 +784,10 @@ function ElementalDefenseCalc(Class, Strength, Dexterity, Vitality, Energy, IsSp
 		Defense = (Strength / 12) + (Dexterity / 6)
 	elseif(Class == CLASS_GUNCRUSHER) then
 		Defense = (Energy / 8) + (Dexterity / 7)
+	elseif(Class == CLASS_LIGHTWIZARD) then
+		Defense = (Energy / 10) + (Dexterity / 6)
+	elseif(Class == CLASS_LEMURIAMAGE) then
+		Defense = (Energy / 5) + (Dexterity / 9)
 	end
 	
 	return Defense
@@ -722,6 +818,10 @@ function ElementalDefenseRateCalc(Class, Strength, Dexterity, Energy, Vitality, 
 	elseif(Class == CLASS_SLAYER) then
 		DefenseRate = Dexterity / 3
 	elseif(Class == CLASS_GUNCRUSHER) then
+		DefenseRate = Dexterity / 3
+	elseif(Class == CLASS_LIGHTWIZARD) then
+		DefenseRate = Dexterity / 3
+	elseif(Class == CLASS_LEMURIAMAGE) then
 		DefenseRate = Dexterity / 3
 	end
 	

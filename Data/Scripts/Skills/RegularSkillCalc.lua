@@ -22,8 +22,10 @@ CLASS_SUMMONER                                        = 5
 CLASS_RAGEFIGHTER                                     = 6
 CLASS_GROWLANCER									  = 7
 CLASS_RUNEWIZARD									  = 8
-CLASS_SLAYER									 	  = 9
+CLASS_SLAYER									  	  = 9
 CLASS_GUNCRUSHER									  = 10
+CLASS_LIGHTWIZARD									  = 11
+CLASS_LEMURIAMAGE									  = 12
 
 -- SkillID: 9, Evil Spirit
 function EvilSpiritCalc(Class, InDamage, Strength, Dexterity, Vitality, Energy)
@@ -493,21 +495,13 @@ function SummonerDamageReflect(Index, TargetIndex, TargetClass, Energy)
 	return Reflect, Time
 end
 
--- SkillID: 218, Berserker
+-- SkillID: 218, Berserker (Damage conversion is managed trough FormulaData.xml::Character section)
 function SummonerBerserker(Energy)
-	local SkillEffectUP = (Energy / 30)
-	local SkillEffectDOWN = (Energy / 60)
-	local SkillTime = -10
+	local SkillEffectUP = (Energy / 30) -- Attack Speed Increase
+	local SkillEffectDOWN = (Energy / 60) -- Life Decrease
+	local SkillTime = -10 -- minus 10 is equal to infinite time
 	
 	return SkillEffectUP, SkillEffectDOWN, SkillTime
-end
-
--- SkillID: 218, Berserker - Magic Damage
-function SummonerBerserkerMagicDamage(Energy, Effect)
-	local MagicMin = (Energy / 9) * Effect / 100
-	local MagicMax = (Energy / 4) * Effect / 100
-	
-	return MagicMin, MagicMax
 end
 
 -- SkillID: 288, Death Scythe
@@ -527,20 +521,12 @@ function DeadScythe_Summoner(InDamage, TargetClass, Strength, Dexterity, Vitalit
 	return OutDamage
 end
 
--- SkillID: 289, Darkness
+-- SkillID: 289, Darkness (Damage conversion is managed trough FormulaData.xml::Character section)
 function SummonerDarkness(Energy)
-	local SkillEffectUP = (Energy / 30)
-	local SkillEffectDOWN = (Energy / 60)
+	local SkillEffectUP = (Energy / 30) -- Defense Increase
+	local SkillEffectDOWN = (Energy / 60) -- Life Decrease
 	
 	return SkillEffectUP, SkillEffectDOWN
-end
-
--- SkillID: 289, Darkness - Curse Damage
-function SummonerDarknessCurseDamage(Energy, Effect)
-	local CurseMin = ((Energy / 9) + 0.015) * Effect / 100
-	local CurseMax = ((Energy / 4) + 0.015) * Effect / 100
-	
-	return CurseMin, CurseMax
 end
 
 -- SkillID: 219, Sleep - MvP
@@ -1102,6 +1088,261 @@ function GunCrusherDeathIceCalc(InDamage, Strength, Dexterity, Vitality, Energy,
 	elseif (BarrageCount == 2) then
 		OutDamage = (InDamage * 1.0) * ((Energy / 8) + (Dexterity / 28) + 120) / 100
 	end
+	
+	return OutDamage
+end
+
+-- SkillID: 240, Magic Shot
+function LightWizardMagicShot(InDamage, Strength, Dexterity, Vitality, Energy, BarrageCount)
+	local OutDamage = 0
+	
+	if (BarrageCount == 1) then
+		OutDamage = (InDamage * 1.0) * (140 + (Energy / 100)) / 100
+	elseif (BarrageCount == 2) then
+		OutDamage = (InDamage * 1.0) * (140 + (Energy / 100)) / 100
+	end
+	
+	return OutDamage
+end
+
+-- SkillID: 241, Shining Bird
+function LightWizardShiningBirdCalc(InDamage, Strength, Dexterity, Vitality, Energy, BarrageCount)
+	local OutDamage = 0
+	
+	OutDamage = (InDamage * 1.0) * ((Energy / 50) + 200) / 100
+
+	return OutDamage
+end
+
+-- SkillID: 242, Dragon Violent
+function LightWizardDragonViolentCalc(InDamage, Strength, Dexterity, Vitality, Energy, BarrageCount)
+	local OutDamage = 0
+	
+	if (BarrageCount == 1) then
+		OutDamage = (InDamage * 1.0) * ((Energy / 50) + 200) / 100
+	elseif (BarrageCount == 2) then
+		OutDamage = (InDamage * 1.0) * ((Energy / 50) + 200) / 100
+	end
+
+	return OutDamage
+end
+
+-- SkillID: 243, Spear Storm
+function LightWizardSpearStormCalc(InDamage, Strength, Dexterity, Vitality, Energy, BarrageCount)
+	local OutDamage = 0
+	
+	if (BarrageCount == 1) then
+		OutDamage = (InDamage * 1.0) * ((Energy / 50) + 200) / 100
+	elseif (BarrageCount == 2) then
+		OutDamage = (InDamage * 1.0) * ((Energy / 50) + 200) / 100
+	end
+
+	return OutDamage
+end
+
+-- SkillID: 244, Reflection Barrier
+function LightWizardReflectionBarrierCalc(Level, MasterLevel, Strength, Dexterity, Vitality, Energy)
+	local ReflectProbability = 50
+	local ReflectShockDmgPercentage = 15
+	local Duration = 60
+	return ReflectProbability, ReflectShockDmgPercentage, Duration
+end
+
+-- SkillID: 240, Magic Shot
+function LemuriaMageMagicShot(InDamage, Strength, Dexterity, Vitality, Energy, BarrageCount)
+	local OutDamage = 0
+	
+	if (BarrageCount == 1) then
+		OutDamage = (InDamage * 1.0) * (140 + (Energy / 100)) / 100
+	elseif (BarrageCount == 2) then
+		OutDamage = (InDamage * 1.0) * (140 + (Energy / 100)) / 100
+	end
+	
+	return OutDamage
+end
+
+-- SkillID: 245, Marvel Burst
+function LemuriaMageMarvelBurst(InDamage, Strength, Dexterity, Vitality, Energy)
+	local OutDamage = 0
+	
+	OutDamage = InDamage * (140 + (Energy / 100)) / 100
+	
+	return OutDamage
+end
+
+-- SkillID: 246, Unleash Marvel
+function LemuriaMageUnleashMarvel(InDamage, Strength, Dexterity, Vitality, Energy)
+	local OutDamage = 0
+	
+	OutDamage = InDamage * (140 + (Energy / 100)) / 100
+	
+	return OutDamage
+end
+
+-- SkillID: 247, Ultimate Force
+function LemuriaMageUltimateForce(InDamage, Strength, Dexterity, Vitality, Energy, BarrageCount)
+	local OutDamage = 0
+	
+	if (BarrageCount == 1) then
+		OutDamage = (InDamage * 1.0) * (140 + (Energy / 100)) / 100
+	elseif (BarrageCount == 2) then
+		OutDamage = (InDamage * 1.0) * (140 + (Energy / 100)) / 100
+	end
+	
+	return OutDamage
+end
+
+-- SkillID: 2007, Beginner Care
+function LemuriaMageHeal(TargetClass, Index, TargetIndex, Energy)
+	local SkillEffect = 0
+	
+	if (Index ~= TargetIndex) then
+		if (TargetClass == CLASS_WIZARD) then
+			SkillEffect = Energy / 10 + 5
+		elseif (TargetClass == CLASS_KNIGHT) then
+			SkillEffect = Energy / 10 + 5
+		elseif (TargetClass == CLASS_ELF) then
+			SkillEffect = Energy / 10 + 5
+		elseif (TargetClass == CLASS_GLADIATOR) then
+			SkillEffect = Energy / 10 + 5
+		elseif (TargetClass == CLASS_DARKLORD) then
+			SkillEffect = Energy / 10 + 5
+		elseif (TargetClass == CLASS_SUMMONER) then
+			SkillEffect = Energy / 10 + 5
+		elseif (TargetClass == CLASS_RAGEFIGHTER) then
+			SkillEffect = Energy / 10 + 5
+		elseif (TargetClass == CLASS_GROWLANCER) then
+			SkillEffect = Energy / 10 + 5
+		elseif (TargetClass == CLASS_RUNEWIZARD) then
+			SkillEffect = Energy / 10 + 5
+		elseif (TargetClass == CLASS_SLAYER) then
+			SkillEffect = Energy / 10 + 5
+		elseif (TargetClass == CLASS_GUNCRUSHER) then
+			SkillEffect = Energy / 10 + 5
+		elseif (TargetClass == CLASS_LIGHTWIZARD) then
+			SkillEffect = Energy / 10 + 5
+		elseif (TargetClass == CLASS_LEMURIAMAGE) then
+			SkillEffect = Energy / 10 + 5
+		end
+	elseif (Index == TargetIndex) then
+		SkillEffect = Energy / 10 + 5
+	end
+	
+	return SkillEffect
+end
+
+-- SkillID: 2008, Beginner Shield Recovery
+function LemuriaMageShieldRecovery(Energy, PlayerLevel)
+	local SkillEffect = Energy / 8 + PlayerLevel
+ 
+	return SkillEffect
+end
+
+-- SkillID: 2009, Beginner Basic Defense Improvement
+function LemuriaMageDefense(Class, Index, TargetIndex, Energy)
+	local SkillEffect = 0
+	local SkillTime = 60
+	
+	if (Index ~= TargetIndex) then
+		if (Class == CLASS_WIZARD) then
+			SkillEffect = 2 + Energy / 16
+		elseif (Class == CLASS_KNIGHT) then
+			SkillEffect = 2 + Energy / 16
+		elseif (Class == CLASS_ELF) then
+			SkillEffect = 2 + Energy / 16
+		elseif (Class == CLASS_GLADIATOR) then
+			SkillEffect = 2 + Energy / 16
+		elseif (Class == CLASS_DARKLORD) then
+			SkillEffect = 2 + Energy / 16
+		elseif (Class == CLASS_SUMMONER) then
+			SkillEffect = 2 + Energy / 16
+		elseif (Class == CLASS_RAGEFIGHTER) then
+			SkillEffect = 2 + Energy / 16
+		elseif (Class == CLASS_GROWLANCER) then
+			SkillEffect = 2 + Energy / 16
+		elseif (Class == CLASS_RUNEWIZARD) then
+			SkillEffect = 2 + Energy / 16
+		elseif (Class == CLASS_SLAYER) then
+			SkillEffect = 2 + Energy / 16
+		elseif (Class == CLASS_LIGHTWIZARD) then
+			SkillEffect = 2 + Energy / 16
+		elseif (Class == CLASS_SLAYER) then
+			SkillEffect = 2 + Energy / 16
+		elseif (Class == CLASS_LEMURIAMAGE) then
+			SkillEffect = 2 + Energy / 16
+		end
+	elseif (Index == TargetIndex) then
+		SkillEffect = 2 + Energy / 16
+	end
+	
+	return SkillEffect, SkillTime
+end
+
+-- SkillID: 2010, Beginner Attack Power Improvement
+function LemuriaMageAttack(Class, Index, TargetIndex, Energy)
+	local SkillEffect = 0
+	local SkillTime = 60
+	
+	if (Index ~= TargetIndex) then
+		if (Class == CLASS_WIZARD) then
+			SkillEffect = 3 + Energy / 15
+		elseif (Class == CLASS_KNIGHT) then
+			SkillEffect = 3 + Energy / 15
+		elseif (Class == CLASS_ELF) then
+			SkillEffect = 3 + Energy / 15
+		elseif (Class == CLASS_GLADIATOR) then
+			SkillEffect = 3 + Energy / 15
+		elseif (Class == CLASS_DARKLORD) then
+			SkillEffect = 3 + Energy / 15
+		elseif (Class == CLASS_SUMMONER) then
+			SkillEffect = 3 + Energy / 15
+		elseif (Class == CLASS_RAGEFIGHTER) then
+			SkillEffect = 3 + Energy / 15
+		elseif (Class == CLASS_GROWLANCER) then
+			SkillEffect = 3 + Energy / 15
+		elseif (Class == CLASS_RUNEWIZARD) then
+			SkillEffect = 3 + Energy / 15
+		elseif (Class == CLASS_SLAYER) then
+			SkillEffect = 3 + Energy / 15
+		elseif (Class == CLASS_GUNCRUSHER) then
+			SkillEffect = 3 + Energy / 15
+		elseif (Class == CLASS_LIGHTWIZARD) then
+			SkillEffect = 3 + Energy / 15
+		elseif (Class == CLASS_LEMURIAMAGE) then
+			SkillEffect = 3 + Energy / 15
+		end
+	elseif (Index == TargetIndex) then
+		SkillEffect = 3 + Energy / 15
+	end
+	
+	return SkillEffect, SkillTime
+end
+
+-- SkillID: 2011, Beginner Bless
+function LemuriaMageBless(Energy)
+	local SkillEffect = Energy / 150
+	
+	return SkillEffect
+end
+
+-- SkillID: 2022, Bond
+function BondAttack_TickDmg_Monster(Level, MasterLevel, Strength, Dexterity, Vitality, Energy, MagicDamageMin, MagicDamageMax)
+	local SkillEffect = MagicDamageMax / 4
+	local Duration = 3
+	
+	return SkillEffect, Duration
+end
+
+-- SkillID: 2022, Bond - Bonus for Light Wizard and Lemuria Mage
+function BondAttack_Active(InDamage, Class, Level, MasterLevel, Strength, Dexterity, Vitality, Energy)
+	local OutDamage = InDamage * 130 / 100
+	
+	return OutDamage
+end
+
+-- SkillID: 2022, Bond - Bonus for other class party members
+function BondAttack_PartyMember(InDamage, Class, Level, MasterLevel, Strength, Dexterity, Vitality, Energy)
+	local OutDamage = InDamage * 115 / 100
 	
 	return OutDamage
 end

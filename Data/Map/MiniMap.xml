@@ -168,9 +168,8 @@
 		<Tag Id="12" MapNumber="3" NPCIndex="229" X="169" Y="89" DisplayType="2" SyncType="2" Name="Marlon" />
 		<Tag Id="13" MapNumber="3" NPCIndex="450" X="179" Y="126" DisplayType="2" SyncType="2" Name="Cherry Blossom Tree" />
 	<!-- Aida 1 ~ 2 -->
-		<Tag Id="0" MapNumber="33" NPCIndex="369" X="78" Y="13" DisplayType="2" SyncType="1" Name="Osbourne" />
-		<Tag Id="1" MapNumber="33" NPCIndex="370" X="86" Y="13" DisplayType="2" SyncType="1" Name="Jerridon" />
-		<Tag Id="2" MapNumber="33" NPCIndex="371" X="82" Y="16" DisplayType="2" SyncType="2" Name="Leo the Helper" />
+		<Tag Id="0" MapNumber="33" NPCIndex="370" X="86" Y="13" DisplayType="2" SyncType="1" Name="Jerridon" />
+		<Tag Id="1" MapNumber="33" NPCIndex="371" X="82" Y="16" DisplayType="2" SyncType="2" Name="Leo the Helper" />
 	<!-- Crywolf Fortress (First Zone) -->
 		<Tag Id="0" MapNumber="34" NPCIndex="406" X="228" Y="48" DisplayType="2" SyncType="1" Name="Apostle Devin" />
 		<Tag Id="1" MapNumber="34" NPCIndex="407" X="62" Y="239" DisplayType="2" SyncType="1" Name="Werewolf Quarrel" />
@@ -417,6 +416,7 @@
 	<!-- Aida (1 ~ 2) -->
 		<Tag Id="0" MapNumber="33" X="72" Y="10" Name="Noria Entrance" />
 		<Tag Id="1" MapNumber="33" X="238" Y="165" Name="Karutan Entrance" />
+		<Tag Id="2" MapNumber="33" X="218" Y="237" Name="Blaze Kethotum Entrance" />
 	<!-- Crywolf Fortress (First Zone) -->
 		<Tag Id="0" MapNumber="34" X="238" Y="42" Name="Valley of Loren Entrance" />
 	<!-- Kanturu Ruins -->
@@ -428,7 +428,7 @@
 	<!-- Elbeland -->
 		<Tag Id="0" MapNumber="51" X="248" Y="149" Name="Atlans Entrance" />
 		<Tag Id="1" MapNumber="51" X="19" Y="27" Name="Devias Entrance" />
-		<Tag Id="2" MapNumber="51" X="219" Y="120" Name="Temple of Arenil - Entrance" /> <!-- Temple of Arenil (Entrance) -->
+		<Tag Id="2" MapNumber="51" X="219" Y="120" Name="Temple of Arenil - Entrance" />
 	<!-- Swamp of Calmness -->
 		<Tag Id="0" MapNumber="56" X="139" Y="125" Name="Hunting Grounds Entrance (1)" />
 		<Tag Id="1" MapNumber="56" X="124" Y="109" Name="Hunting Grounds Entrance (2)" />
@@ -496,11 +496,11 @@
 		<Tag Id="9" MapNumber="122" X="178" Y="102" Name="Water Gate" />
 		<Tag Id="10" MapNumber="122" X="242" Y="89" Name="Boss Zone Entrance" />
 	<!-- Kubera Mine -->
-		<Tag Id="0" MapNumber="123" X="233" Y="87" Name="Devias Entrance" /> <!-- Fire -->
-		<Tag Id="1" MapNumber="124" X="233" Y="87" Name="Devias Entrance" /> <!-- Water -->
-		<Tag Id="2" MapNumber="125" X="233" Y="87" Name="Devias Entrance" /> <!-- Earth -->
-		<Tag Id="3" MapNumber="126" X="233" Y="87" Name="Devias Entrance" /> <!-- Wind -->
-		<Tag Id="4" MapNumber="127" X="233" Y="87" Name="Devias Entrance" /> <!-- Darkness -->
+		<Tag Id="0" MapNumber="123" X="233" Y="87" Name="Devias Fire Entrance" />
+		<Tag Id="1" MapNumber="124" X="233" Y="87" Name="Devias Water Entrance" />
+		<Tag Id="2" MapNumber="125" X="233" Y="87" Name="Devias Earth Entrance" />
+		<Tag Id="3" MapNumber="126" X="233" Y="87" Name="Devias Wind Entrance" />
+		<Tag Id="4" MapNumber="127" X="233" Y="87" Name="Devias Darkness Entrance" />
 		<Tag Id="5" MapNumber="123" X="209" Y="69" Name="Elemental Gate (B)" /> <!-- Fire -->
 		<Tag Id="6" MapNumber="123" X="214" Y="110" Name="Fire Gate (A)" /> <!-- (Safe Zone) -->
 		<Tag Id="7" MapNumber="124" X="214" Y="110" Name="Fire Gate (A)" /> <!-- (Safe Zone) -->

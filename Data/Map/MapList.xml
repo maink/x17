@@ -162,6 +162,8 @@
 		<Map Number="132" File="132_RedSmokeIcarus.att" />
 		<Map Number="133" File="133_ArenilTemple.att" />
 		<Map Number="134" File="134_AshyAida.att" />
+		<Map Number="135" File="135_OldKethotum.att" />
+		<Map Number="136" File="136_BlazeKethotum.att" />
 	</DefaultMaps>
 	
 	<CrywolfEventAttr>

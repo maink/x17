@@ -23,6 +23,8 @@ CLASS_GROWLANCER									  = 7
 CLASS_RUNEWIZARD									  = 8
 CLASS_SLAYER									  	  = 9
 CLASS_GUNCRUSHER									  = 10
+CLASS_LIGHTWIZARD									  = 11
+CLASS_LEMURIAMAGE									  = 12
 
 -- SkillID: 385, 487, Evil Spirit Strengthener
 function EvilSpirit_MasterLevel1_Calc(Class, InDamage, Strength, Dexterity, Vitality, Energy)
@@ -1445,4 +1447,314 @@ function GunCrusherDeathIce_MasterLevel2_Calc(InDamage, Strength, Dexterity, Vit
 	end
 	
 	return OutDamage
+end
+
+-- SkillID: 843, Shining Bird Strenghtener
+function LightWizardShiningBird_MasterLevel1_Calc(InDamage, Strength, Dexterity, Vitality, Energy, BarrageCount, SkillTreeValue)
+	local OutDamage = 0
+	
+	OutDamage = ((InDamage * 1.0) * ((Energy / 50) + 200) + SkillTreeValue) / 100
+
+	return OutDamage
+end
+
+-- SkillID: 844, Shining Bird Mastery
+function LightWizardShiningBird_MasterLevel2_Calc(InDamage, Strength, Dexterity, Vitality, Energy, BarrageCount, SkillTreeValue)
+	local OutDamage = 0
+	
+	OutDamage = ((InDamage * 1.0) * ((Energy / 50) + 200) + SkillTreeValue) / 100
+
+	return OutDamage
+end
+
+-- SkillID: 846, Dragon Violent Strenghtener
+function LightWizardDragonViolent_MasterLevel1_Calc(InDamage, Strength, Dexterity, Vitality, Energy, BarrageCount, SkillTreeValue)
+	local OutDamage = 0
+	
+	if (BarrageCount == 1) then
+		OutDamage = ((InDamage * 1.0) * ((Energy / 50) + 200) + SkillTreeValue) / 100
+	elseif (BarrageCount == 1) then
+		OutDamage = ((InDamage * 1.0) * ((Energy / 50) + 200) + SkillTreeValue) / 100
+	end
+
+	return OutDamage
+end
+
+-- SkillID: 847, Dragon Violent Mastery
+function LightWizardDragonViolent_MasterLevel2_Calc(InDamage, Strength, Dexterity, Vitality, Energy, BarrageCount, SkillTreeValue)
+	local OutDamage = 0
+	
+	if (BarrageCount == 1) then
+		OutDamage = ((InDamage * 1.0) * ((Energy / 50) + 200) + SkillTreeValue) / 100
+	elseif (BarrageCount == 1) then
+		OutDamage = ((InDamage * 1.0) * ((Energy / 50) + 200) + SkillTreeValue) / 100
+	end
+
+	return OutDamage
+end
+
+-- SkillID: 861, Reflection Barrier Strenghtener
+function LightWizardReflectionBarrier_MasterLevel1_Calc(Level, MasterLevel, Strength, Dexterity, Vitality, Energy, SkillTreeValue)
+	local ReflectProbability = 50
+	local ReflectShockDmgPercentage = 15 + SkillTreeValue
+	local Duration = 60
+	return ReflectProbability, ReflectShockDmgPercentage, Duration
+end
+
+-- SkillID: 862, Reflection Barrier Skills
+function LightWizardReflectionBarrier_MasterLevel2_Calc(Level, MasterLevel, Strength, Dexterity, Vitality, Energy, SkillTreeValue, SkillTreeValue2)
+	local ReflectProbability = 50
+	local ReflectShockDmgPercentage = 15 + SkillTreeValue
+	local Duration = 60 + SkillTreeValue2
+	return ReflectProbability, ReflectShockDmgPercentage, Duration
+end
+
+-- SkillID: 863, Reflection Barrier Mastery
+function LightWizardReflectionBarrier_MasterLevel3_Calc(Level, MasterLevel, Strength, Dexterity, Vitality, Energy, SkillTreeValue, SkillTreeValue2)
+	local ReflectProbability = 50
+	local ReflectShockDmgPercentage = 15 + SkillTreeValue
+	local Duration = 60 + SkillTreeValue2
+	return ReflectProbability, ReflectShockDmgPercentage, Duration
+end
+
+-- SkillID: 848, Marvel Burst Strenghtener
+function LemuriaMageMarvelBurst_MasterLevel1_Calc(InDamage, Strength, Dexterity, Vitality, Energy)
+	local OutDamage = 0
+	
+	OutDamage = InDamage * (140 + (Energy / 100)) / 100
+	
+	return OutDamage
+end
+
+-- SkillID: 849, Marvel Burst Mastery
+function LemuriaMageMarvelBurst_MasterLevel2_Calc(InDamage, Strength, Dexterity, Vitality, Energy)
+	local OutDamage = 0
+	
+	OutDamage = InDamage * (140 + (Energy / 100)) / 100
+	
+	return OutDamage
+end
+
+-- SkillID: 851, Beginner Defense Improvement Strenghtener
+function LemuriaMageDefense_Level1(Class, Index, TargetIndex, Energy)
+	local SkillEffect = 0
+	local SkillTime = 60
+	
+	if (Index ~= TargetIndex) then
+		if (Class == CLASS_WIZARD) then
+			SkillEffect = 2 + Energy / 16
+		elseif (Class == CLASS_KNIGHT) then
+			SkillEffect = 2 + Energy / 16
+		elseif (Class == CLASS_ELF) then
+			SkillEffect = 2 + Energy / 16
+		elseif (Class == CLASS_GLADIATOR) then
+			SkillEffect = 2 + Energy / 16
+		elseif (Class == CLASS_DARKLORD) then
+			SkillEffect = 2 + Energy / 16
+		elseif (Class == CLASS_SUMMONER) then
+			SkillEffect = 2 + Energy / 16
+		elseif (Class == CLASS_RAGEFIGHTER) then
+			SkillEffect = 2 + Energy / 16
+		elseif (Class == CLASS_GROWLANCER) then
+			SkillEffect = 2 + Energy / 16
+		elseif (Class == CLASS_RUNEWIZARD) then
+			SkillEffect = 2 + Energy / 16
+		elseif (Class == CLASS_SLAYER) then
+			SkillEffect = 2 + Energy / 16
+		elseif (Class == CLASS_LIGHTWIZARD) then
+			SkillEffect = 2 + Energy / 16
+		elseif (Class == CLASS_SLAYER) then
+			SkillEffect = 2 + Energy / 16
+		elseif (Class == CLASS_LEMURIAMAGE) then
+			SkillEffect = 2 + Energy / 16
+		end
+	elseif (Index == TargetIndex) then
+		SkillEffect = 2 + Energy / 16
+	end
+	
+	return SkillEffect, SkillTime
+end
+
+-- SkillID: 852, Beginner Defense Improvement Mastery
+function LemuriaMageDefense_Level2(Class, Index, TargetIndex, Energy)
+	local SkillEffect = 0
+	local SkillTime = 60
+	
+	if (Index ~= TargetIndex) then
+		if (Class == CLASS_WIZARD) then
+			SkillEffect = 2 + Energy / 16
+		elseif (Class == CLASS_KNIGHT) then
+			SkillEffect = 2 + Energy / 16
+		elseif (Class == CLASS_ELF) then
+			SkillEffect = 2 + Energy / 16
+		elseif (Class == CLASS_GLADIATOR) then
+			SkillEffect = 2 + Energy / 16
+		elseif (Class == CLASS_DARKLORD) then
+			SkillEffect = 2 + Energy / 16
+		elseif (Class == CLASS_SUMMONER) then
+			SkillEffect = 2 + Energy / 16
+		elseif (Class == CLASS_RAGEFIGHTER) then
+			SkillEffect = 2 + Energy / 16
+		elseif (Class == CLASS_GROWLANCER) then
+			SkillEffect = 2 + Energy / 16
+		elseif (Class == CLASS_RUNEWIZARD) then
+			SkillEffect = 2 + Energy / 16
+		elseif (Class == CLASS_SLAYER) then
+			SkillEffect = 2 + Energy / 16
+		elseif (Class == CLASS_LIGHTWIZARD) then
+			SkillEffect = 2 + Energy / 16
+		elseif (Class == CLASS_SLAYER) then
+			SkillEffect = 2 + Energy / 16
+		elseif (Class == CLASS_LEMURIAMAGE) then
+			SkillEffect = 2 + Energy / 16
+		end
+	elseif (Index == TargetIndex) then
+		SkillEffect = 2 + Energy / 16
+	end
+	
+	return SkillEffect, SkillTime
+end
+
+-- SkillID: 853, Beginner Attack Power Improvement Strenghtener
+function LemuriaMageAttack_Level1(Class, Index, TargetIndex, Energy)
+	local SkillEffect = 0
+	local SkillTime = 60
+	
+	if (Index ~= TargetIndex) then
+		if (Class == CLASS_WIZARD) then
+			SkillEffect = 3 + Energy / 15
+		elseif (Class == CLASS_KNIGHT) then
+			SkillEffect = 3 + Energy / 15
+		elseif (Class == CLASS_ELF) then
+			SkillEffect = 3 + Energy / 15
+		elseif (Class == CLASS_GLADIATOR) then
+			SkillEffect = 3 + Energy / 15
+		elseif (Class == CLASS_DARKLORD) then
+			SkillEffect = 3 + Energy / 15
+		elseif (Class == CLASS_SUMMONER) then
+			SkillEffect = 3 + Energy / 15
+		elseif (Class == CLASS_RAGEFIGHTER) then
+			SkillEffect = 3 + Energy / 15
+		elseif (Class == CLASS_GROWLANCER) then
+			SkillEffect = 3 + Energy / 15
+		elseif (Class == CLASS_RUNEWIZARD) then
+			SkillEffect = 3 + Energy / 15
+		elseif (Class == CLASS_SLAYER) then
+			SkillEffect = 3 + Energy / 15
+		elseif (Class == CLASS_GUNCRUSHER) then
+			SkillEffect = 3 + Energy / 15
+		elseif (Class == CLASS_LIGHTWIZARD) then
+			SkillEffect = 3 + Energy / 15
+		elseif (Class == CLASS_LEMURIAMAGE) then
+			SkillEffect = 3 + Energy / 15
+		end
+	elseif (Index == TargetIndex) then
+		SkillEffect = 3 + Energy / 15
+	end
+	
+	return SkillEffect, SkillTime
+end
+
+-- SkillID: 854, Beginner Attack Power Improvement Mastery
+function LemuriaMageAttack_Level2(Class, Index, TargetIndex, Energy)
+	local SkillEffect = 0
+	local SkillTime = 60
+	
+	if (Index ~= TargetIndex) then
+		if (Class == CLASS_WIZARD) then
+			SkillEffect = 3 + Energy / 15
+		elseif (Class == CLASS_KNIGHT) then
+			SkillEffect = 3 + Energy / 15
+		elseif (Class == CLASS_ELF) then
+			SkillEffect = 3 + Energy / 15
+		elseif (Class == CLASS_GLADIATOR) then
+			SkillEffect = 3 + Energy / 15
+		elseif (Class == CLASS_DARKLORD) then
+			SkillEffect = 3 + Energy / 15
+		elseif (Class == CLASS_SUMMONER) then
+			SkillEffect = 3 + Energy / 15
+		elseif (Class == CLASS_RAGEFIGHTER) then
+			SkillEffect = 3 + Energy / 15
+		elseif (Class == CLASS_GROWLANCER) then
+			SkillEffect = 3 + Energy / 15
+		elseif (Class == CLASS_RUNEWIZARD) then
+			SkillEffect = 3 + Energy / 15
+		elseif (Class == CLASS_SLAYER) then
+			SkillEffect = 3 + Energy / 15
+		elseif (Class == CLASS_GUNCRUSHER) then
+			SkillEffect = 3 + Energy / 15
+		elseif (Class == CLASS_LIGHTWIZARD) then
+			SkillEffect = 3 + Energy / 15
+		elseif (Class == CLASS_LEMURIAMAGE) then
+			SkillEffect = 3 + Energy / 15
+		end
+	elseif (Index == TargetIndex) then
+		SkillEffect = 3 + Energy / 15
+	end
+	
+	return SkillEffect, SkillTime
+end
+
+-- SkillID: 855, Unleash Marvel Strenghtener
+function LemuriaMageUnleashMarvel_MasterLevel1_Calc(InDamage, Strength, Dexterity, Vitality, Energy)
+	local OutDamage = 0
+	
+	OutDamage = InDamage * (140 + (Energy / 100)) / 100
+	
+	return OutDamage
+end
+
+-- SkillID: 856, Unleash Marvel Mastery
+function LemuriaMageUnleashMarvel_MasterLevel2_Calc(InDamage, Strength, Dexterity, Vitality, Energy)
+	local OutDamage = 0
+	
+	OutDamage = InDamage * (140 + (Energy / 100)) / 100
+	
+	return OutDamage
+end
+
+-- SkillID: 857, Beginner Bless Strenghtener
+function LemuriaMageBless_Level1(Energy)
+	local SkillEffect = Energy / 150
+	
+	return SkillEffect
+end
+
+-- SkillID: 858, Intensive Care Strengthener
+function LemuriaMageHeal_Level1(TargetClass, Index, TargetIndex, Energy)
+	local SkillEffect = 0
+	
+	if (Index ~= TargetIndex) then
+		if (TargetClass == CLASS_WIZARD) then
+			SkillEffect = Energy / 10 + 5
+		elseif (TargetClass == CLASS_KNIGHT) then
+			SkillEffect = Energy / 10 + 5
+		elseif (TargetClass == CLASS_ELF) then
+			SkillEffect = Energy / 10 + 5
+		elseif (TargetClass == CLASS_GLADIATOR) then
+			SkillEffect = Energy / 10 + 5
+		elseif (TargetClass == CLASS_DARKLORD) then
+			SkillEffect = Energy / 10 + 5
+		elseif (TargetClass == CLASS_SUMMONER) then
+			SkillEffect = Energy / 10 + 5
+		elseif (TargetClass == CLASS_RAGEFIGHTER) then
+			SkillEffect = Energy / 10 + 5
+		elseif (TargetClass == CLASS_GROWLANCER) then
+			SkillEffect = Energy / 10 + 5
+		elseif (TargetClass == CLASS_RUNEWIZARD) then
+			SkillEffect = Energy / 10 + 5
+		elseif (TargetClass == CLASS_SLAYER) then
+			SkillEffect = Energy / 10 + 5
+		elseif (TargetClass == CLASS_GUNCRUSHER) then
+			SkillEffect = Energy / 10 + 5
+		elseif (TargetClass == CLASS_LIGHTWIZARD) then
+			SkillEffect = Energy / 10 + 5
+		elseif (TargetClass == CLASS_LEMURIAMAGE) then
+			SkillEffect = Energy / 10 + 5
+		end
+	elseif (Index == TargetIndex) then
+		SkillEffect = Energy / 10 + 5
+	end
+	
+	return SkillEffect
 end

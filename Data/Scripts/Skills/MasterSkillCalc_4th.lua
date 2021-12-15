@@ -389,3 +389,77 @@ function BurstingFlare_4thEnchant_GunCrusher(InDamage, Strength, Dexterity, Vita
 	
 	return OutDamage
 end
+
+-- SkillID: 1216, Spear Storm Enhancement Skill
+function LightWizardSpearStorm_4thEnchant_Calc(InDamage, Strength, Dexterity, Vitality, Energy, BarrageCount)
+	local OutDamage = 0
+	
+	if (BarrageCount == 1) then
+		OutDamage = ((InDamage * 1.0) * ((Energy / 50) + 200)) / 100
+	elseif (BarrageCount == 2) then
+		OutDamage = ((InDamage * 1.0) * ((Energy / 50) + 200)) / 100
+	elseif (BarrageCount == 3) then
+		OutDamage = ((InDamage * 1.0) * ((Energy / 50) + 200)) / 100
+	end
+
+	return OutDamage
+end
+
+-- SkillID: 1217, Marvel Burst Enhancement Skill
+function LemuriaMageMarvelBurst_4thEnchant_Calc(InDamage, Strength, Dexterity, Vitality, Energy)
+	local OutDamage = 0
+	
+	OutDamage = InDamage * (140 + (Energy / 100)) / 100
+	
+	return OutDamage
+end
+
+-- SkillID: 1218, Unleash Marvel Enhancement Skill
+function LemuriaMageUnleashMarvel_4thEnchant_Calc(InDamage, Strength, Dexterity, Vitality, Energy)
+	local OutDamage = 0
+	
+	OutDamage = InDamage * (140 + (Energy / 100)) / 100
+	
+	return OutDamage
+end
+
+-- SkillID: 1219, Ultimate Force Enhancement Skill
+function LemuriaMageUltimateForce_4thEnchant_Calc(InDamage, Strength, Dexterity, Vitality, Energy, BarrageCount)
+	local OutDamage = 0
+	
+	if (BarrageCount == 1) then
+		OutDamage = (InDamage * 1.0) * (140 + (Energy / 100)) / 100
+	elseif (BarrageCount == 2) then
+		OutDamage = (InDamage * 1.0) * (140 + (Energy / 100)) / 100
+	end
+	
+	return OutDamage
+end
+
+-- SkillID: 1220, Shining Bird Enhancement Skill
+function LightWizardShiningBird_4thEnchant_Calc(InDamage, Strength, Dexterity, Vitality, Energy, BarrageCount)
+	local OutDamage = 0
+	
+	if (BarrageCount == 1) then
+		OutDamage = ((InDamage * 1.0) * ((Energy / 50) + 200)) / 100
+	elseif (BarrageCount == 2) then
+		OutDamage = ((InDamage * 1.0) * ((Energy / 50) + 200)) / 100
+	end
+
+	return OutDamage
+end
+
+-- SkillID: 1221, Dragon Violent Enhancement Skill
+function LightWizardDragonViolent_4thEnchant_Calc(InDamage, Strength, Dexterity, Vitality, Energy, BarrageCount)
+	local OutDamage = 0
+	
+	if (BarrageCount == 1) then
+		OutDamage = ((InDamage * 1.0) * ((Energy / 50) + 200)) / 100
+	elseif (BarrageCount == 2) then
+		OutDamage = ((InDamage * 1.0) * ((Energy / 50) + 200)) / 100
+	elseif (BarrageCount == 3) then
+		OutDamage = ((InDamage * 1.0) * ((Energy / 50) + 200)) / 100
+	end
+
+	return OutDamage
+end

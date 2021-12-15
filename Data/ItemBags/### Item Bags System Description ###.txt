@@ -56,7 +56,9 @@
 //	GL: 0 - Disallow, 1 - Grow Lancer, 2 - Miracle Lancer, 4 - Shining Lancer
 //	RW: 0 - Disallow, 1 - Rune Wizard, 2 - Rune Spell Master, 4 - Rune Grand Master
 //	SLA: 0 - Disallow, 1 - Slayer, 2 - Royal Slayer, 3 - Master Slayer, 4 - Slaughterer
-//	GC: 0 - Disallow, 1 - Gun Crusher, 2 - Gun Breaker, 3: Master Gun Breaker, 4 - Heist Gun Crusher
+//	GC: 0 - Disallow, 1 - Gun Crusher, 2 - Gun Breaker, 3 - Master Gun Breaker, 4 - Heist Gun Crusher
+//	LW: 0 - Disallow, 1 - Light Wizard, 2 - Light Master, 3 - Shining Wizard, 4 - Luminous Wizard
+//	LM: 0 - Disallow, 1 - Lemuria Mage, 2 - Warmage, 3 - Archmage, 4 - Mystic Mage
 //	PlayerMinLevel: Minimum level of player to apply drop of items from the section (must be lower or equal to PlayerMaxLevel)
 //	PlayerMaxLevel: Maximum level of player to apply drop of items from the section (must be greater or equal to PlayerMinLevel)
 //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

@@ -189,5 +189,9 @@
 		<Map Number="130" Disable="0" CoinType="-1" CoinValue="100" /> <!-- Abyss of Atlans 3 -->
 		<Map Number="131" Disable="0" CoinType="-1" CoinValue="100" /> <!-- Scorched Canyon -->
 		<Map Number="132" Disable="0" CoinType="-1" CoinValue="100" /> <!-- Red Smoke Icarus -->
+		<Map Number="133" Disable="0" CoinType="-1" CoinValue="100" /> <!-- Arenil Temple -->
+		<Map Number="134" Disable="0" CoinType="-1" CoinValue="100" /> <!-- Ashy Aida -->
+		<Map Number="135" Disable="0" CoinType="-1" CoinValue="100" /> <!-- Old Kethotum -->
+		<Map Number="136" Disable="0" CoinType="-1" CoinValue="100" /> <!-- Blaze Kethotum -->
 	</PerMapAdjustments>
 </OffLevellingSystem>
