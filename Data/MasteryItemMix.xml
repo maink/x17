@@ -953,34 +953,34 @@
 		<Material ID="872" Cat="9" Index="283" MinLevel="11" MaxLevel="15" Option="4" Durability="0" Type="2" Name="Brilliant Gun Crusher Pants" />
 		<Material ID="873" Cat="10" Index="283" MinLevel="11" MaxLevel="15" Option="4" Durability="0" Type="2" Name="Brilliant Gun Crusher Gloves" />
 		<Material ID="874" Cat="11" Index="283" MinLevel="11" MaxLevel="15" Option="4" Durability="0" Type="2" Name="Brilliant Gun Crusher Boots" />
-		<Material ID="875" Cat="7" Index="272" MinLevel="0" MaxLevel="15" Option="4" Durability="0" Type="2" Name="Brilliant Elf (Agi) Helm" />
-		<Material ID="876" Cat="8" Index="272" MinLevel="0" MaxLevel="15" Option="4" Durability="0" Type="2" Name="Brilliant Elf (Agi) Armor" />
-		<Material ID="877" Cat="9" Index="272" MinLevel="0" MaxLevel="15" Option="4" Durability="0" Type="2" Name="Brilliant Elf (Agi) Pants" />
-		<Material ID="878" Cat="10" Index="272" MinLevel="0" MaxLevel="15" Option="4" Durability="0" Type="2" Name="Brilliant Elf (Agi) Gloves" />
-		<Material ID="879" Cat="11" Index="272" MinLevel="0" MaxLevel="15" Option="4" Durability="0" Type="2" Name="Brilliant Elf (Agi) Boots" />
-		<Material ID="880" Cat="8" Index="274" MinLevel="0" MaxLevel="15" Option="4" Durability="0" Type="2" Name="Brilliant Magic (Str) Armor" />
-		<Material ID="881" Cat="9" Index="274" MinLevel="0" MaxLevel="15" Option="4" Durability="0" Type="2" Name="Brilliant Magic (Str) Pants" />
-		<Material ID="882" Cat="10" Index="274" MinLevel="0" MaxLevel="15" Option="4" Durability="0" Type="2" Name="Brilliant Magic (Str) Gloves" />
-		<Material ID="883" Cat="11" Index="274" MinLevel="0" MaxLevel="15" Option="4" Durability="0" Type="2" Name="Brilliant Magic (Str) Boots" />
-		<Material ID="884" Cat="7" Index="278" MinLevel="0" MaxLevel="15" Option="4" Durability="0" Type="2" Name="Brilliant Elf (Agi) Helm" />
-		<Material ID="885" Cat="8" Index="278" MinLevel="0" MaxLevel="15" Option="4" Durability="0" Type="2" Name="Brilliant Elf (Agi) Armor" />
-		<Material ID="886" Cat="9" Index="278" MinLevel="0" MaxLevel="15" Option="4" Durability="0" Type="2" Name="Brilliant Elf (Agi) Pants" />
-		<Material ID="887" Cat="10" Index="278" MinLevel="0" MaxLevel="15" Option="4" Durability="0" Type="2" Name="Brilliant Elf (Agi) Gloves" />
-		<Material ID="888" Cat="11" Index="278" MinLevel="0" MaxLevel="15" Option="4" Durability="0" Type="2" Name="Brilliant Elf (Agi) Boots" />
-		<Material ID="889" Cat="8" Index="279" MinLevel="0" MaxLevel="15" Option="4" Durability="0" Type="2" Name="Brilliant Magic (Ene) Armor" />
-		<Material ID="890" Cat="9" Index="279" MinLevel="0" MaxLevel="15" Option="4" Durability="0" Type="2" Name="Brilliant Magic (Ene) Pants" />
-		<Material ID="891" Cat="10" Index="279" MinLevel="0" MaxLevel="15" Option="4" Durability="0" Type="2" Name="Brilliant Magic (Ene) Gloves" />
-		<Material ID="892" Cat="11" Index="279" MinLevel="0" MaxLevel="15" Option="4" Durability="0" Type="2" Name="Brilliant Magic (Ene) Boots" />
-		<Material ID="893" Cat="7" Index="282" MinLevel="0" MaxLevel="15" Option="4" Durability="0" Type="2" Name="Brilliant Knight (Belief) Helm" />
-		<Material ID="894" Cat="8" Index="282" MinLevel="0" MaxLevel="15" Option="4" Durability="0" Type="2" Name="Brilliant Knight (Belief) Armor" />
-		<Material ID="895" Cat="9" Index="282" MinLevel="0" MaxLevel="15" Option="4" Durability="0" Type="2" Name="Brilliant Knight (Belief) Pants" />
-		<Material ID="896" Cat="10" Index="282" MinLevel="0" MaxLevel="15" Option="4" Durability="0" Type="2" Name="Brilliant Knight (Belief) Gloves" />
-		<Material ID="897" Cat="11" Index="282" MinLevel="0" MaxLevel="15" Option="4" Durability="0" Type="2" Name="Brilliant Knight (Belief) Boots" />
-		<Material ID="898" Cat="7" Index="270" MinLevel="0" MaxLevel="15" Option="4" Durability="0" Type="2" Name="Brilliant Knight Helm" />
-		<Material ID="899" Cat="8" Index="270" MinLevel="0" MaxLevel="15" Option="4" Durability="0" Type="2" Name="Brilliant Knight Armor" />
-		<Material ID="900" Cat="9" Index="270" MinLevel="0" MaxLevel="15" Option="4" Durability="0" Type="2" Name="Brilliant Knight Pants" />
-		<Material ID="901" Cat="10" Index="270" MinLevel="0" MaxLevel="15" Option="4" Durability="0" Type="2" Name="Brilliant Knight Gloves" />
-		<Material ID="902" Cat="11" Index="270" MinLevel="0" MaxLevel="15" Option="4" Durability="0" Type="2" Name="Brilliant Knight Boots" />
+		<Material ID="875" Cat="7" Index="272" MinLevel="0" MaxLevel="15" Option="0" Durability="0" Type="2" Name="Brilliant Elf (Agi) Helm" />
+		<Material ID="876" Cat="8" Index="272" MinLevel="0" MaxLevel="15" Option="0" Durability="0" Type="2" Name="Brilliant Elf (Agi) Armor" />
+		<Material ID="877" Cat="9" Index="272" MinLevel="0" MaxLevel="15" Option="0" Durability="0" Type="2" Name="Brilliant Elf (Agi) Pants" />
+		<Material ID="878" Cat="10" Index="272" MinLevel="0" MaxLevel="15" Option="0" Durability="0" Type="2" Name="Brilliant Elf (Agi) Gloves" />
+		<Material ID="879" Cat="11" Index="272" MinLevel="0" MaxLevel="15" Option="0" Durability="0" Type="2" Name="Brilliant Elf (Agi) Boots" />
+		<Material ID="880" Cat="8" Index="274" MinLevel="0" MaxLevel="15" Option="0" Durability="0" Type="2" Name="Brilliant Magic (Str) Armor" />
+		<Material ID="881" Cat="9" Index="274" MinLevel="0" MaxLevel="15" Option="0" Durability="0" Type="2" Name="Brilliant Magic (Str) Pants" />
+		<Material ID="882" Cat="10" Index="274" MinLevel="0" MaxLevel="15" Option="0" Durability="0" Type="2" Name="Brilliant Magic (Str) Gloves" />
+		<Material ID="883" Cat="11" Index="274" MinLevel="0" MaxLevel="15" Option="0" Durability="0" Type="2" Name="Brilliant Magic (Str) Boots" />
+		<Material ID="884" Cat="7" Index="278" MinLevel="0" MaxLevel="15" Option="0" Durability="0" Type="2" Name="Brilliant Elf (Agi) Helm" />
+		<Material ID="885" Cat="8" Index="278" MinLevel="0" MaxLevel="15" Option="0" Durability="0" Type="2" Name="Brilliant Elf (Agi) Armor" />
+		<Material ID="886" Cat="9" Index="278" MinLevel="0" MaxLevel="15" Option="0" Durability="0" Type="2" Name="Brilliant Elf (Agi) Pants" />
+		<Material ID="887" Cat="10" Index="278" MinLevel="0" MaxLevel="15" Option="0" Durability="0" Type="2" Name="Brilliant Elf (Agi) Gloves" />
+		<Material ID="888" Cat="11" Index="278" MinLevel="0" MaxLevel="15" Option="0" Durability="0" Type="2" Name="Brilliant Elf (Agi) Boots" />
+		<Material ID="889" Cat="8" Index="279" MinLevel="0" MaxLevel="15" Option="0" Durability="0" Type="2" Name="Brilliant Magic (Ene) Armor" />
+		<Material ID="890" Cat="9" Index="279" MinLevel="0" MaxLevel="15" Option="0" Durability="0" Type="2" Name="Brilliant Magic (Ene) Pants" />
+		<Material ID="891" Cat="10" Index="279" MinLevel="0" MaxLevel="15" Option="0" Durability="0" Type="2" Name="Brilliant Magic (Ene) Gloves" />
+		<Material ID="892" Cat="11" Index="279" MinLevel="0" MaxLevel="15" Option="0" Durability="0" Type="2" Name="Brilliant Magic (Ene) Boots" />
+		<Material ID="893" Cat="7" Index="282" MinLevel="0" MaxLevel="15" Option="0" Durability="0" Type="2" Name="Brilliant Knight (Belief) Helm" />
+		<Material ID="894" Cat="8" Index="282" MinLevel="0" MaxLevel="15" Option="0" Durability="0" Type="2" Name="Brilliant Knight (Belief) Armor" />
+		<Material ID="895" Cat="9" Index="282" MinLevel="0" MaxLevel="15" Option="0" Durability="0" Type="2" Name="Brilliant Knight (Belief) Pants" />
+		<Material ID="896" Cat="10" Index="282" MinLevel="0" MaxLevel="15" Option="0" Durability="0" Type="2" Name="Brilliant Knight (Belief) Gloves" />
+		<Material ID="897" Cat="11" Index="282" MinLevel="0" MaxLevel="15" Option="0" Durability="0" Type="2" Name="Brilliant Knight (Belief) Boots" />
+		<Material ID="898" Cat="7" Index="270" MinLevel="0" MaxLevel="15" Option="0" Durability="0" Type="2" Name="Brilliant Knight Helm" />
+		<Material ID="899" Cat="8" Index="270" MinLevel="0" MaxLevel="15" Option="0" Durability="0" Type="2" Name="Brilliant Knight Armor" />
+		<Material ID="900" Cat="9" Index="270" MinLevel="0" MaxLevel="15" Option="0" Durability="0" Type="2" Name="Brilliant Knight Pants" />
+		<Material ID="901" Cat="10" Index="270" MinLevel="0" MaxLevel="15" Option="0" Durability="0" Type="2" Name="Brilliant Knight Gloves" />
+		<Material ID="902" Cat="11" Index="270" MinLevel="0" MaxLevel="15" Option="0" Durability="0" Type="2" Name="Brilliant Knight Boots" />
 		<Material ID="903" Cat="11" Index="234" MinLevel="11" MaxLevel="15" Option="4" Durability="0" Type="2" Name="Manticore Gun Crusher Boots" />
 		<Material ID="904" Cat="4" Index="53" MinLevel="11" MaxLevel="15" Option="4" Durability="0" Type="1" Name="Silver Heart Magic Gun" />	
 		<Material ID="905" Cat="20" Index="58" MinLevel="0" MaxLevel="0" Option="0" Durability="0" Type="0" Name="Sealed Twilight Blood Angel Armor" />
@@ -991,52 +991,52 @@
 		<Material ID="910" Cat="20" Index="63" MinLevel="0" MaxLevel="0" Option="0" Durability="0" Type="0" Name="Sealed Liberation Blood Angel Helm" />
 		<Material ID="911" Cat="20" Index="64" MinLevel="0" MaxLevel="0" Option="0" Durability="0" Type="0" Name="Sealed Liberation Blood Angel Pents" />
 		<Material ID="912" Cat="20" Index="65" MinLevel="0" MaxLevel="0" Option="0" Durability="0" Type="0" Name="Sealed Liberation Blood Angel Gloves" />
-		<Material ID="913" Cat="7" Index="244" MinLevel="11" MaxLevel="15" Option="0" Durability="0" Type="2" Name="Soul White Wizard Helmet" />
-		<Material ID="914" Cat="8" Index="244" MinLevel="11" MaxLevel="15" Option="0" Durability="0" Type="2" Name="Soul White Wizard Armor" />
-		<Material ID="915" Cat="9" Index="244" MinLevel="11" MaxLevel="15" Option="0" Durability="0" Type="2" Name="Soul White Wizard Pants" />
-		<Material ID="916" Cat="10" Index="244" MinLevel="11" MaxLevel="15" Option="0" Durability="0" Type="2" Name="Soul White Wizard Gloves" />
-		<Material ID="917" Cat="11" Index="244" MinLevel="11" MaxLevel="15" Option="0" Durability="0" Type="2" Name="Soul White Wizard Boots" />
-		<Material ID="918" Cat="7" Index="245" MinLevel="11" MaxLevel="15" Option="0" Durability="0" Type="2" Name="Blue Eye White Wizard Helmet" />
-		<Material ID="919" Cat="8" Index="245" MinLevel="11" MaxLevel="15" Option="0" Durability="0" Type="2" Name="Blue Eye White Wizard Armor" />
-		<Material ID="920" Cat="9" Index="245" MinLevel="11" MaxLevel="15" Option="0" Durability="0" Type="2" Name="Blue Eye White Wizard Pants" />
-		<Material ID="921" Cat="10" Index="245" MinLevel="11" MaxLevel="15" Option="0" Durability="0" Type="2" Name="Blue Eye White Wizard Gloves" />
-		<Material ID="922" Cat="11" Index="245" MinLevel="11" MaxLevel="15" Option="0" Durability="0" Type="2" Name="Blue Eye White Wizard Boots" />
-		<Material ID="923" Cat="7" Index="246" MinLevel="11" MaxLevel="15" Option="0" Durability="0" Type="2" Name="Silver Heart White Wizard Helmet" />
-		<Material ID="924" Cat="8" Index="246" MinLevel="11" MaxLevel="15" Option="0" Durability="0" Type="2" Name="Silver Heart White Wizard Armor" />
-		<Material ID="925" Cat="9" Index="246" MinLevel="11" MaxLevel="15" Option="0" Durability="0" Type="2" Name="Silver Heart White Wizard Pants" />
-		<Material ID="926" Cat="10" Index="246" MinLevel="11" MaxLevel="15" Option="0" Durability="0" Type="2" Name="Silver Heart White Wizard Gloves" />
-		<Material ID="927" Cat="11" Index="246" MinLevel="11" MaxLevel="15" Option="0" Durability="0" Type="2" Name="Silver Heart White Wizard Boots" />
-		<Material ID="928" Cat="7" Index="247" MinLevel="11" MaxLevel="15" Option="0" Durability="0" Type="2" Name="Manticore White Wizard Helmet" />
-		<Material ID="929" Cat="8" Index="247" MinLevel="11" MaxLevel="15" Option="0" Durability="0" Type="2" Name="Manticore White Wizard Armor" />
-		<Material ID="930" Cat="9" Index="247" MinLevel="11" MaxLevel="15" Option="0" Durability="0" Type="2" Name="Manticore White Wizard Pants" />
-		<Material ID="931" Cat="10" Index="247" MinLevel="11" MaxLevel="15" Option="0" Durability="0" Type="2" Name="Manticore White Wizard Gloves" />
-		<Material ID="932" Cat="11" Index="247" MinLevel="11" MaxLevel="15" Option="0" Durability="0" Type="2" Name="Manticore White Wizard Boots" />
-		<Material ID="933" Cat="7" Index="262" MinLevel="11" MaxLevel="15" Option="0" Durability="0" Type="2" Name="Soul Mage Helmt" />
-		<Material ID="934" Cat="8" Index="262" MinLevel="11" MaxLevel="15" Option="0" Durability="0" Type="2" Name="Soul Mage Armor" />
-		<Material ID="935" Cat="9" Index="262" MinLevel="11" MaxLevel="15" Option="0" Durability="0" Type="2" Name="Soul Mage Pants" />
-		<Material ID="936" Cat="10" Index="262" MinLevel="11" MaxLevel="15" Option="0" Durability="0" Type="2" Name="Soul Mage Gloves" />
-		<Material ID="937" Cat="11" Index="262" MinLevel="11" MaxLevel="15" Option="0" Durability="0" Type="2" Name="Soul Mage Boots" />
-		<Material ID="938" Cat="7" Index="263" MinLevel="11" MaxLevel="15" Option="0" Durability="0" Type="2" Name="Blue Eye Mage Helmt" />
-		<Material ID="939" Cat="8" Index="263" MinLevel="11" MaxLevel="15" Option="0" Durability="0" Type="2" Name="Blue Eye Mage Armor" />
-		<Material ID="940" Cat="9" Index="263" MinLevel="11" MaxLevel="15" Option="0" Durability="0" Type="2" Name="Blue Eye Mage Pants" />
-		<Material ID="941" Cat="10" Index="263" MinLevel="11" MaxLevel="15" Option="0" Durability="0" Type="2" Name="Blue Eye Mage Gloves" />
-		<Material ID="942" Cat="11" Index="263" MinLevel="11" MaxLevel="15" Option="0" Durability="0" Type="2" Name="Blue Eye Mage Boots" />
-		<Material ID="943" Cat="7" Index="264" MinLevel="11" MaxLevel="15" Option="0" Durability="0" Type="2" Name="Silver Heart Mage Helmt" />
-		<Material ID="944" Cat="8" Index="264" MinLevel="11" MaxLevel="15" Option="0" Durability="0" Type="2" Name="Silver Heart Mage Armor" />
-		<Material ID="945" Cat="9" Index="264" MinLevel="11" MaxLevel="15" Option="0" Durability="0" Type="2" Name="Silver Heart Mage Pants" />
-		<Material ID="946" Cat="10" Index="264" MinLevel="11" MaxLevel="15" Option="0" Durability="0" Type="2" Name="Silver Heart Mage Gloves" />
-		<Material ID="947" Cat="11" Index="264" MinLevel="11" MaxLevel="15" Option="0" Durability="0" Type="2" Name="Silver Heart Mage Boots" />
-		<Material ID="948" Cat="7" Index="265" MinLevel="11" MaxLevel="15" Option="0" Durability="0" Type="2" Name="Manticore Mage Helmt" />
-		<Material ID="949" Cat="8" Index="265" MinLevel="11" MaxLevel="15" Option="0" Durability="0" Type="2" Name="Manticore Mage Armor" />
-		<Material ID="950" Cat="9" Index="265" MinLevel="11" MaxLevel="15" Option="0" Durability="0" Type="2" Name="Manticore Mage Pants" />
-		<Material ID="951" Cat="10" Index="265" MinLevel="11" MaxLevel="15" Option="0" Durability="0" Type="2" Name="Manticore Mage Gloves" />
-		<Material ID="952" Cat="11" Index="265" MinLevel="11" MaxLevel="15" Option="0" Durability="0" Type="2" Name="Manticore Mage Boots" />
-		<Material ID="953" Cat="5" Index="76" MinLevel="11" MaxLevel="15" Option="0" Durability="0" Type="1" Name="Soul Magic Book" />
-		<Material ID="954" Cat="5" Index="77" MinLevel="11" MaxLevel="15" Option="0" Durability="0" Type="1" Name="Blue Eye Magic Book" />
-		<Material ID="955" Cat="5" Index="78" MinLevel="11" MaxLevel="15" Option="0" Durability="0" Type="1" Name="Silver Heart Magic Book" />
-		<Material ID="956" Cat="5" Index="89" MinLevel="11" MaxLevel="15" Option="0" Durability="0" Type="1" Name="Soul Orb" />
-		<Material ID="957" Cat="5" Index="90" MinLevel="11" MaxLevel="15" Option="0" Durability="0" Type="1" Name="Blue Eye Orb" />
-		<Material ID="958" Cat="5" Index="91" MinLevel="11" MaxLevel="15" Option="0" Durability="0" Type="1" Name="Silver Heart Orb" />
+		<Material ID="913" Cat="7" Index="244" MinLevel="11" MaxLevel="15" Option="4" Durability="0" Type="2" Name="Soul White Wizard Helmet" />
+		<Material ID="914" Cat="8" Index="244" MinLevel="11" MaxLevel="15" Option="4" Durability="0" Type="2" Name="Soul White Wizard Armor" />
+		<Material ID="915" Cat="9" Index="244" MinLevel="11" MaxLevel="15" Option="4" Durability="0" Type="2" Name="Soul White Wizard Pants" />
+		<Material ID="916" Cat="10" Index="244" MinLevel="11" MaxLevel="15" Option="4" Durability="0" Type="2" Name="Soul White Wizard Gloves" />
+		<Material ID="917" Cat="11" Index="244" MinLevel="11" MaxLevel="15" Option="4" Durability="0" Type="2" Name="Soul White Wizard Boots" />
+		<Material ID="918" Cat="7" Index="245" MinLevel="11" MaxLevel="15" Option="4" Durability="0" Type="2" Name="Blue Eye White Wizard Helmet" />
+		<Material ID="919" Cat="8" Index="245" MinLevel="11" MaxLevel="15" Option="4" Durability="0" Type="2" Name="Blue Eye White Wizard Armor" />
+		<Material ID="920" Cat="9" Index="245" MinLevel="11" MaxLevel="15" Option="4" Durability="0" Type="2" Name="Blue Eye White Wizard Pants" />
+		<Material ID="921" Cat="10" Index="245" MinLevel="11" MaxLevel="15" Option="4" Durability="0" Type="2" Name="Blue Eye White Wizard Gloves" />
+		<Material ID="922" Cat="11" Index="245" MinLevel="11" MaxLevel="15" Option="4" Durability="0" Type="2" Name="Blue Eye White Wizard Boots" />
+		<Material ID="923" Cat="7" Index="246" MinLevel="11" MaxLevel="15" Option="4" Durability="0" Type="2" Name="Silver Heart White Wizard Helmet" />
+		<Material ID="924" Cat="8" Index="246" MinLevel="11" MaxLevel="15" Option="4" Durability="0" Type="2" Name="Silver Heart White Wizard Armor" />
+		<Material ID="925" Cat="9" Index="246" MinLevel="11" MaxLevel="15" Option="4" Durability="0" Type="2" Name="Silver Heart White Wizard Pants" />
+		<Material ID="926" Cat="10" Index="246" MinLevel="11" MaxLevel="15" Option="4" Durability="0" Type="2" Name="Silver Heart White Wizard Gloves" />
+		<Material ID="927" Cat="11" Index="246" MinLevel="11" MaxLevel="15" Option="4" Durability="0" Type="2" Name="Silver Heart White Wizard Boots" />
+		<Material ID="928" Cat="7" Index="247" MinLevel="11" MaxLevel="15" Option="4" Durability="0" Type="2" Name="Manticore White Wizard Helmet" />
+		<Material ID="929" Cat="8" Index="247" MinLevel="11" MaxLevel="15" Option="4" Durability="0" Type="2" Name="Manticore White Wizard Armor" />
+		<Material ID="930" Cat="9" Index="247" MinLevel="11" MaxLevel="15" Option="4" Durability="0" Type="2" Name="Manticore White Wizard Pants" />
+		<Material ID="931" Cat="10" Index="247" MinLevel="11" MaxLevel="15" Option="4" Durability="0" Type="2" Name="Manticore White Wizard Gloves" />
+		<Material ID="932" Cat="11" Index="247" MinLevel="11" MaxLevel="15" Option="4" Durability="0" Type="2" Name="Manticore White Wizard Boots" />
+		<Material ID="933" Cat="7" Index="262" MinLevel="11" MaxLevel="15" Option="4" Durability="0" Type="2" Name="Soul Mage Helmt" />
+		<Material ID="934" Cat="8" Index="262" MinLevel="11" MaxLevel="15" Option="4" Durability="0" Type="2" Name="Soul Mage Armor" />
+		<Material ID="935" Cat="9" Index="262" MinLevel="11" MaxLevel="15" Option="4" Durability="0" Type="2" Name="Soul Mage Pants" />
+		<Material ID="936" Cat="10" Index="262" MinLevel="11" MaxLevel="15" Option="4" Durability="0" Type="2" Name="Soul Mage Gloves" />
+		<Material ID="937" Cat="11" Index="262" MinLevel="11" MaxLevel="15" Option="4" Durability="0" Type="2" Name="Soul Mage Boots" />
+		<Material ID="938" Cat="7" Index="263" MinLevel="11" MaxLevel="15" Option="4" Durability="0" Type="2" Name="Blue Eye Mage Helmt" />
+		<Material ID="939" Cat="8" Index="263" MinLevel="11" MaxLevel="15" Option="4" Durability="0" Type="2" Name="Blue Eye Mage Armor" />
+		<Material ID="940" Cat="9" Index="263" MinLevel="11" MaxLevel="15" Option="4" Durability="0" Type="2" Name="Blue Eye Mage Pants" />
+		<Material ID="941" Cat="10" Index="263" MinLevel="11" MaxLevel="15" Option="4" Durability="0" Type="2" Name="Blue Eye Mage Gloves" />
+		<Material ID="942" Cat="11" Index="263" MinLevel="11" MaxLevel="15" Option="4" Durability="0" Type="2" Name="Blue Eye Mage Boots" />
+		<Material ID="943" Cat="7" Index="264" MinLevel="11" MaxLevel="15" Option="4" Durability="0" Type="2" Name="Silver Heart Mage Helmt" />
+		<Material ID="944" Cat="8" Index="264" MinLevel="11" MaxLevel="15" Option="4" Durability="0" Type="2" Name="Silver Heart Mage Armor" />
+		<Material ID="945" Cat="9" Index="264" MinLevel="11" MaxLevel="15" Option="4" Durability="0" Type="2" Name="Silver Heart Mage Pants" />
+		<Material ID="946" Cat="10" Index="264" MinLevel="11" MaxLevel="15" Option="4" Durability="0" Type="2" Name="Silver Heart Mage Gloves" />
+		<Material ID="947" Cat="11" Index="264" MinLevel="11" MaxLevel="15" Option="4" Durability="0" Type="2" Name="Silver Heart Mage Boots" />
+		<Material ID="948" Cat="7" Index="265" MinLevel="11" MaxLevel="15" Option="4" Durability="0" Type="2" Name="Manticore Mage Helmt" />
+		<Material ID="949" Cat="8" Index="265" MinLevel="11" MaxLevel="15" Option="4" Durability="0" Type="2" Name="Manticore Mage Armor" />
+		<Material ID="950" Cat="9" Index="265" MinLevel="11" MaxLevel="15" Option="4" Durability="0" Type="2" Name="Manticore Mage Pants" />
+		<Material ID="951" Cat="10" Index="265" MinLevel="11" MaxLevel="15" Option="4" Durability="0" Type="2" Name="Manticore Mage Gloves" />
+		<Material ID="952" Cat="11" Index="265" MinLevel="11" MaxLevel="15" Option="4" Durability="0" Type="2" Name="Manticore Mage Boots" />
+		<Material ID="953" Cat="5" Index="76" MinLevel="11" MaxLevel="15" Option="4" Durability="0" Type="1" Name="Soul Magic Book" />
+		<Material ID="954" Cat="5" Index="77" MinLevel="11" MaxLevel="15" Option="4" Durability="0" Type="1" Name="Blue Eye Magic Book" />
+		<Material ID="955" Cat="5" Index="78" MinLevel="11" MaxLevel="15" Option="4" Durability="0" Type="1" Name="Silver Heart Magic Book" />
+		<Material ID="956" Cat="5" Index="89" MinLevel="11" MaxLevel="15" Option="4" Durability="0" Type="1" Name="Soul Orb" />
+		<Material ID="957" Cat="5" Index="90" MinLevel="11" MaxLevel="15" Option="4" Durability="0" Type="1" Name="Blue Eye Orb" />
+		<Material ID="958" Cat="5" Index="91" MinLevel="11" MaxLevel="15" Option="4" Durability="0" Type="1" Name="Silver Heart Orb" />
 	</CombinationMaterials>
 	
 	<CombinationResult AncientHeroSoulLuckRate="50" NoAncientHeroSoulLuckRate="5">
@@ -1783,22 +1783,22 @@
 		<Mix ID="1287" Cat="8" Index="243" Level="0" Name="Holy Angel Light Wizard Armor" OptKeepType="6" SuccessRate="100" MaterialID1="785" MaterialCnt1="1" MaterialID2="69" MaterialCnt2="1" MaterialID3="21" MaterialCnt3="1" MaterialID4="22" MaterialCnt4="1" MaterialID5="6" MaterialCnt5="1" MaterialID6="3" MaterialCnt6="1" Money="0" />
 		<Mix ID="1288" Cat="9" Index="243" Level="0" Name="Holy Angel Light Wizard Pants" OptKeepType="6" SuccessRate="100" MaterialID1="786" MaterialCnt1="1" MaterialID2="69" MaterialCnt2="1" MaterialID3="21" MaterialCnt3="1" MaterialID4="22" MaterialCnt4="1" MaterialID5="6" MaterialCnt5="1" MaterialID6="3" MaterialCnt6="1" Money="0" />
 		<Mix ID="1289" Cat="10" Index="243" Level="0" Name="Holy Angel Light Wizard Gloves" OptKeepType="6" SuccessRate="100" MaterialID1="787" MaterialCnt1="1" MaterialID2="69" MaterialCnt2="1" MaterialID3="21" MaterialCnt3="1" MaterialID4="22" MaterialCnt4="1" MaterialID5="6" MaterialCnt5="1" MaterialID6="3" MaterialCnt6="1" Money="0" />
-		<Mix ID="1290" Cat="7" Index="244" Level="0" Name="Soul White Wizard Helmet" OptKeepType="6" SuccessRate="100" MaterialID1="7,243" MaterialCnt1="1" MaterialID2="197" MaterialCnt2="1" MaterialID3="21" MaterialCnt3="1" MaterialID4="22" MaterialCnt4="1" MaterialID5="6" MaterialCnt5="1" MaterialID6="3" MaterialCnt6="1" Money="0" />
-		<Mix ID="1291" Cat="8" Index="244" Level="0" Name="Soul White Wizard Armor" OptKeepType="6" SuccessRate="100" MaterialID1="8,243" MaterialCnt1="1" MaterialID2="197" MaterialCnt2="1" MaterialID3="21" MaterialCnt3="1" MaterialID4="22" MaterialCnt4="1" MaterialID5="6" MaterialCnt5="1" MaterialID6="3" MaterialCnt6="1" Money="0" />
-		<Mix ID="1292" Cat="9" Index="244" Level="0" Name="Soul White Wizard Pants" OptKeepType="6" SuccessRate="100" MaterialID1="9,243" MaterialCnt1="1" MaterialID2="197" MaterialCnt2="1" MaterialID3="21" MaterialCnt3="1" MaterialID4="22" MaterialCnt4="1" MaterialID5="6" MaterialCnt5="1" MaterialID6="3" MaterialCnt6="1" Money="0" />
-		<Mix ID="1293" Cat="10" Index="244" Level="0" Name="Soul White Wizard Gloves" OptKeepType="6" SuccessRate="100" MaterialID1="10,243" MaterialCnt1="1" MaterialID2="197" MaterialCnt2="1" MaterialID3="21" MaterialCnt3="1" MaterialID4="22" MaterialCnt4="1" MaterialID5="6" MaterialCnt5="1" MaterialID6="3" MaterialCnt6="1" Money="0" />
-		<Mix ID="1294" Cat="7" Index="245" Level="0" Name="Blue Eye White Wizard Helmt" OptKeepType="6" SuccessRate="100" MaterialID1="7,244" MaterialCnt1="1" MaterialID2="328" MaterialCnt2="1" MaterialID3="21" MaterialCnt3="1" MaterialID4="22" MaterialCnt4="1" MaterialID5="6" MaterialCnt5="1" MaterialID6="3" MaterialCnt6="1" Money="0" />
-		<Mix ID="1295" Cat="8" Index="245" Level="0" Name="Blue Eye White Wizard Armor" OptKeepType="6" SuccessRate="100" MaterialID1="8,244" MaterialCnt1="1" MaterialID2="328" MaterialCnt2="1" MaterialID3="21" MaterialCnt3="1" MaterialID4="22" MaterialCnt4="1" MaterialID5="6" MaterialCnt5="1" MaterialID6="3" MaterialCnt6="1" Money="0" />
-		<Mix ID="1296" Cat="9" Index="245" Level="0" Name="Blue Eye White Wizard Pants" OptKeepType="6" SuccessRate="100" MaterialID1="9,244" MaterialCnt1="1" MaterialID2="328" MaterialCnt2="1" MaterialID3="21" MaterialCnt3="1" MaterialID4="22" MaterialCnt4="1" MaterialID5="6" MaterialCnt5="1" MaterialID6="3" MaterialCnt6="1" Money="0" />
-		<Mix ID="1297" Cat="10" Index="245" Level="0" Name="Blue Eye White Wizard Gloves" OptKeepType="6" SuccessRate="100" MaterialID1="10,244" MaterialCnt1="1" MaterialID2="328" MaterialCnt2="1" MaterialID3="21" MaterialCnt3="1" MaterialID4="22" MaterialCnt4="1" MaterialID5="6" MaterialCnt5="1" MaterialID6="3" MaterialCnt6="1" Money="0" />
-		<Mix ID="1298" Cat="7" Index="246" Level="0" Name="Silver Heart White Wizard Helmt" OptKeepType="6" SuccessRate="100" MaterialID1="7,245" MaterialCnt1="1" MaterialID2="498" MaterialCnt2="1" MaterialID3="21" MaterialCnt3="1" MaterialID4="22" MaterialCnt4="1" MaterialID5="6" MaterialCnt5="1" MaterialID6="3" MaterialCnt6="1" Money="0" />
-		<Mix ID="1299" Cat="8" Index="246" Level="0" Name="Silver Heart White Wizard Armor" OptKeepType="6" SuccessRate="100" MaterialID1="8,245" MaterialCnt1="1" MaterialID2="498" MaterialCnt2="1" MaterialID3="21" MaterialCnt3="1" MaterialID4="22" MaterialCnt4="1" MaterialID5="6" MaterialCnt5="1" MaterialID6="3" MaterialCnt6="1" Money="0" />
-		<Mix ID="1300" Cat="9" Index="246" Level="0" Name="Silver Heart White Wizard Pants" OptKeepType="6" SuccessRate="100" MaterialID1="9,245" MaterialCnt1="1" MaterialID2="498" MaterialCnt2="1" MaterialID3="21" MaterialCnt3="1" MaterialID4="22" MaterialCnt4="1" MaterialID5="6" MaterialCnt5="1" MaterialID6="3" MaterialCnt6="1" Money="0" />
-		<Mix ID="1301" Cat="10" Index="246" Level="0" Name="Silver Heart White Wizard Gloves" OptKeepType="6" SuccessRate="100" MaterialID1="10,245" MaterialCnt1="1" MaterialID2="498" MaterialCnt2="1" MaterialID3="21" MaterialCnt3="1" MaterialID4="22" MaterialCnt4="1" MaterialID5="6" MaterialCnt5="1" MaterialID6="3" MaterialCnt6="1" Money="0" />
-		<Mix ID="1302" Cat="7" Index="247" Level="0" Name="Manticore White Wizard Helmt" OptKeepType="6" SuccessRate="100" MaterialID1="7,246" MaterialCnt1="1" MaterialID2="576" MaterialCnt2="1" MaterialID3="21" MaterialCnt3="1" MaterialID4="22" MaterialCnt4="1" MaterialID5="6" MaterialCnt5="1" MaterialID6="3" MaterialCnt6="1" Money="0" />
-		<Mix ID="1303" Cat="8" Index="247" Level="0" Name="Manticore White Wizard Armor" OptKeepType="6" SuccessRate="100" MaterialID1="8,246" MaterialCnt1="1" MaterialID2="576" MaterialCnt2="1" MaterialID3="21" MaterialCnt3="1" MaterialID4="22" MaterialCnt4="1" MaterialID5="6" MaterialCnt5="1" MaterialID6="3" MaterialCnt6="1" Money="0" />
-		<Mix ID="1304" Cat="9" Index="247" Level="0" Name="Manticore White Wizard Pants" OptKeepType="6" SuccessRate="100" MaterialID1="9,246" MaterialCnt1="1" MaterialID2="576" MaterialCnt2="1" MaterialID3="21" MaterialCnt3="1" MaterialID4="22" MaterialCnt4="1" MaterialID5="6" MaterialCnt5="1" MaterialID6="3" MaterialCnt6="1" Money="0" />
-		<Mix ID="1305" Cat="10" Index="247" Level="0" Name="Manticore White Wizard Gloves" OptKeepType="6" SuccessRate="100" MaterialID1="10,246" MaterialCnt1="1" MaterialID2="576" MaterialCnt2="1" MaterialID3="21" MaterialCnt3="1" MaterialID4="22" MaterialCnt4="1" MaterialID5="6" MaterialCnt5="1" MaterialID6="3" MaterialCnt6="1" Money="0" />
+		<Mix ID="1290" Cat="7" Index="244" Level="0" Name="Soul White Wizard Helmet" OptKeepType="6" SuccessRate="100" MaterialID1="788" MaterialCnt1="1" MaterialID2="197" MaterialCnt2="1" MaterialID3="21" MaterialCnt3="1" MaterialID4="22" MaterialCnt4="1" MaterialID5="6" MaterialCnt5="1" MaterialID6="3" MaterialCnt6="1" Money="0" />
+		<Mix ID="1291" Cat="8" Index="244" Level="0" Name="Soul White Wizard Armor" OptKeepType="6" SuccessRate="100" MaterialID1="789" MaterialCnt1="1" MaterialID2="197" MaterialCnt2="1" MaterialID3="21" MaterialCnt3="1" MaterialID4="22" MaterialCnt4="1" MaterialID5="6" MaterialCnt5="1" MaterialID6="3" MaterialCnt6="1" Money="0" />
+		<Mix ID="1292" Cat="9" Index="244" Level="0" Name="Soul White Wizard Pants" OptKeepType="6" SuccessRate="100" MaterialID1="790" MaterialCnt1="1" MaterialID2="197" MaterialCnt2="1" MaterialID3="21" MaterialCnt3="1" MaterialID4="22" MaterialCnt4="1" MaterialID5="6" MaterialCnt5="1" MaterialID6="3" MaterialCnt6="1" Money="0" />
+		<Mix ID="1293" Cat="10" Index="244" Level="0" Name="Soul White Wizard Gloves" OptKeepType="6" SuccessRate="100" MaterialID1="791" MaterialCnt1="1" MaterialID2="197" MaterialCnt2="1" MaterialID3="21" MaterialCnt3="1" MaterialID4="22" MaterialCnt4="1" MaterialID5="6" MaterialCnt5="1" MaterialID6="3" MaterialCnt6="1" Money="0" />
+		<Mix ID="1294" Cat="7" Index="245" Level="0" Name="Blue Eye White Wizard Helmt" OptKeepType="6" SuccessRate="100" MaterialID1="913" MaterialCnt1="1" MaterialID2="328" MaterialCnt2="1" MaterialID3="21" MaterialCnt3="1" MaterialID4="22" MaterialCnt4="1" MaterialID5="6" MaterialCnt5="1" MaterialID6="3" MaterialCnt6="1" Money="0" />
+		<Mix ID="1295" Cat="8" Index="245" Level="0" Name="Blue Eye White Wizard Armor" OptKeepType="6" SuccessRate="100" MaterialID1="914" MaterialCnt1="1" MaterialID2="328" MaterialCnt2="1" MaterialID3="21" MaterialCnt3="1" MaterialID4="22" MaterialCnt4="1" MaterialID5="6" MaterialCnt5="1" MaterialID6="3" MaterialCnt6="1" Money="0" />
+		<Mix ID="1296" Cat="9" Index="245" Level="0" Name="Blue Eye White Wizard Pants" OptKeepType="6" SuccessRate="100" MaterialID1="915" MaterialCnt1="1" MaterialID2="328" MaterialCnt2="1" MaterialID3="21" MaterialCnt3="1" MaterialID4="22" MaterialCnt4="1" MaterialID5="6" MaterialCnt5="1" MaterialID6="3" MaterialCnt6="1" Money="0" />
+		<Mix ID="1297" Cat="10" Index="245" Level="0" Name="Blue Eye White Wizard Gloves" OptKeepType="6" SuccessRate="100" MaterialID1="916" MaterialCnt1="1" MaterialID2="328" MaterialCnt2="1" MaterialID3="21" MaterialCnt3="1" MaterialID4="22" MaterialCnt4="1" MaterialID5="6" MaterialCnt5="1" MaterialID6="3" MaterialCnt6="1" Money="0" />
+		<Mix ID="1298" Cat="7" Index="246" Level="0" Name="Silver Heart White Wizard Helmt" OptKeepType="6" SuccessRate="100" MaterialID1="918" MaterialCnt1="1" MaterialID2="498" MaterialCnt2="1" MaterialID3="21" MaterialCnt3="1" MaterialID4="22" MaterialCnt4="1" MaterialID5="6" MaterialCnt5="1" MaterialID6="3" MaterialCnt6="1" Money="0" />
+		<Mix ID="1299" Cat="8" Index="246" Level="0" Name="Silver Heart White Wizard Armor" OptKeepType="6" SuccessRate="100" MaterialID1="919" MaterialCnt1="1" MaterialID2="498" MaterialCnt2="1" MaterialID3="21" MaterialCnt3="1" MaterialID4="22" MaterialCnt4="1" MaterialID5="6" MaterialCnt5="1" MaterialID6="3" MaterialCnt6="1" Money="0" />
+		<Mix ID="1300" Cat="9" Index="246" Level="0" Name="Silver Heart White Wizard Pants" OptKeepType="6" SuccessRate="100" MaterialID1="919" MaterialCnt1="1" MaterialID2="498" MaterialCnt2="1" MaterialID3="21" MaterialCnt3="1" MaterialID4="22" MaterialCnt4="1" MaterialID5="6" MaterialCnt5="1" MaterialID6="3" MaterialCnt6="1" Money="0" />
+		<Mix ID="1301" Cat="10" Index="246" Level="0" Name="Silver Heart White Wizard Gloves" OptKeepType="6" SuccessRate="100" MaterialID1="920" MaterialCnt1="1" MaterialID2="498" MaterialCnt2="1" MaterialID3="21" MaterialCnt3="1" MaterialID4="22" MaterialCnt4="1" MaterialID5="6" MaterialCnt5="1" MaterialID6="3" MaterialCnt6="1" Money="0" />
+		<Mix ID="1302" Cat="7" Index="247" Level="0" Name="Manticore White Wizard Helmt" OptKeepType="6" SuccessRate="100" MaterialID1="923" MaterialCnt1="1" MaterialID2="576" MaterialCnt2="1" MaterialID3="21" MaterialCnt3="1" MaterialID4="22" MaterialCnt4="1" MaterialID5="6" MaterialCnt5="1" MaterialID6="3" MaterialCnt6="1" Money="0" />
+		<Mix ID="1303" Cat="8" Index="247" Level="0" Name="Manticore White Wizard Armor" OptKeepType="6" SuccessRate="100" MaterialID1="924" MaterialCnt1="1" MaterialID2="576" MaterialCnt2="1" MaterialID3="21" MaterialCnt3="1" MaterialID4="22" MaterialCnt4="1" MaterialID5="6" MaterialCnt5="1" MaterialID6="3" MaterialCnt6="1" Money="0" />
+		<Mix ID="1304" Cat="9" Index="247" Level="0" Name="Manticore White Wizard Pants" OptKeepType="6" SuccessRate="100" MaterialID1="925" MaterialCnt1="1" MaterialID2="576" MaterialCnt2="1" MaterialID3="21" MaterialCnt3="1" MaterialID4="22" MaterialCnt4="1" MaterialID5="6" MaterialCnt5="1" MaterialID6="3" MaterialCnt6="1" Money="0" />
+		<Mix ID="1305" Cat="10" Index="247" Level="0" Name="Manticore White Wizard Gloves" OptKeepType="6" SuccessRate="100" MaterialID1="926" MaterialCnt1="1" MaterialID2="576" MaterialCnt2="1" MaterialID3="21" MaterialCnt3="1" MaterialID4="22" MaterialCnt4="1" MaterialID5="6" MaterialCnt5="1" MaterialID6="3" MaterialCnt6="1" Money="0" />
 		<!-- 1306~1309 -->
 		<Mix ID="1310" Cat="5" Index="87" Level="0" Name="Dark Angel Orb" OptKeepType="3" SuccessRate="100" MaterialID1="777" MaterialCnt1="1" MaterialID2="36" MaterialCnt2="1" MaterialID3="21" MaterialCnt3="1" MaterialID4="22" MaterialCnt4="1" MaterialID5="6" MaterialCnt5="1" MaterialID6="3" MaterialCnt6="1" Money="0" />
 		<Mix ID="1311" Cat="5" Index="88" Level="0" Name="Holy Angel Orb" OptKeepType="3" SuccessRate="100" MaterialID1="778" MaterialCnt1="1" MaterialID2="271" MaterialCnt2="1" MaterialID3="21" MaterialCnt3="1" MaterialID4="22" MaterialCnt4="1" MaterialID5="6" MaterialCnt5="1" MaterialID6="3" MaterialCnt6="1" Money="0" />
