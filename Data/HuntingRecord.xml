@@ -81,6 +81,8 @@
 		<Map Index="132" Name="Red Smoke Icarus" />
 		<Map Index="133" Name="Arenil Temple" />
 		<Map Index="134" Name="Gray Aida" />
+		<Map Index="135" Name="Old Kethhotum" />
+		<Map Index="136" Name="Blaze Kethhotum" />
 	</MapIncluded>
 	<MonstersExcluded> <!-- Monsters excluded from huntin records -->
 		<Monster Index="413" Name="Gold Rabbit" />
