@@ -46,7 +46,8 @@
 	EVENTBAG_MURUMMY_1 = 28
 	EVENTBAG_MURUMMY_2 = 29
 	EVENTBAG_MURUMMY_3 = 30
--- 31 - 33
+	EVENTBAG_MAPLELEAF = 31
+-- 32 - 33
 	EVENTBAG_ITR_1 = 34 -- Illusion Temple Renewal 1
 	EVENTBAG_ITR_2 = 35 -- Illusion Temple Renewal 2
 	EVENTBAG_ITR_3 = 36 -- Illusion Temple Renewal 3
@@ -182,6 +183,7 @@ function LoadItemBag() -- Bags Load
 	AddItemBag(BAG_DROP, MakeItemID(14,491),0, 'Item_(14,491,0)_[TEST]_Mastery_Weapon_Box') -- DropFunction /1/
 	AddItemBag(BAG_DROP, MakeItemID(14,493),0, 'Item_(14,493,0)_Term_Wing_Box') -- DropFunction /1/
 	-- AddItemBag(BAG_DROP, MakeItemID(14,496),0, 'Item_(14,496,0)_30_Day_Mastery_Weapon_Box') -- DropFunction /1/
+	AddItemBag(BAG_DROP, MakeItemID(14,503), 0, 'Item_(14,503,0)_Maple_Play_Box') -- DropFunction /1/
 
 -- ====================================================================
 -- ItemBags -- BagType, MakeItemID(Type,Index), ItemLevel, 'FileName'
@@ -346,7 +348,8 @@ function LoadItemBag() -- Bags Load
 	AddItemBag(BAG_EVENT, 28,0, 'Event_MuRummy_Reward_1') -- DropFunction /4/
 	AddItemBag(BAG_EVENT, 29,0, 'Event_MuRummy_Reward_2') -- DropFunction /4/
 	AddItemBag(BAG_EVENT, 30,0, 'Event_MuRummy_Reward_3') -- DropFunction /4/
--- 31 - 33
+	AddItemBag(BAG_EVENT, 31,0, 'Mix_Maple_Leaf_Reward') -- DropFunction /4/
+-- 32 - 33
 	AddItemBag(BAG_EVENT, 34,0, 'Event_IllusionTemple_Renewal_1') -- DropFunction /3/
 	AddItemBag(BAG_EVENT, 35,0, 'Event_IllusionTemple_Renewal_2') -- DropFunction /3/
 	AddItemBag(BAG_EVENT, 36,0, 'Event_IllusionTemple_Renewal_3') -- DropFunction /3/

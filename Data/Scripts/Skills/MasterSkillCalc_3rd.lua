@@ -529,48 +529,6 @@ function GiganticStormCalc_Master_Gladiator(InDamage, Strength, Dexterity, Energ
  return OutDamage
 end
 
--- SkillID: 865, Spiral Charge Strengthener - (Duel Master)
-function GladiatorSpiralCharge_MasterLevel1(Level, MasterLevel, Strength, Dexterity, Vitality, Energy)
-	local DamageUp = Strength
-	local DefenseUp = Strength / 15
-	return DamageUp, DefenseUp
-end
-
--- SkillID: 866, Spiral Charge Mastery - (Duel Master)
-function GladiatorSpiralCharge_MasterLevel2(Level, MasterLevel, Strength, Dexterity, Vitality, Energy)
-	local DamageUp = Strength
-	local DefenseUp = Strength / 15
-	return DamageUp, DefenseUp
-end
-
--- SkillID: 867, Crusher Charge Strenghtener - (Duel Master)
-function GladiatorCrusherCharge_MasterLevel1(Level, MasterLevel, Strength, Dexterity, Vitality, Energy)
-	local AtkSpdUp = Strength / 15
-	local DefenseUp = Strength / 15
-	return AtkSpdUp, DefenseUp
-end
-
--- SkillID: 868, Crusher Charge Mastery - (Duel Master)
-function GladiatorCrusherCharge_MasterLevel2(Level, MasterLevel, Strength, Dexterity, Vitality, Energy)
-	local AtkSpdUp = Strength / 15
-	local DefenseUp = Strength / 15
-	return AtkSpdUp, DefenseUp
-end
-
--- SkillID: 869, Elemental Charge Strenghtener - (Duel Master)
-function GladiatorElementalCharge_MasterLevel1(Level, MasterLevel, Strength, Dexterity, Vitality, Energy)
-	local DamageUp = Strength
-	local DefenseUp = Strength / 15
-	return DamageUp, DefenseUp
-end
-
--- SkillID: 870, Elemental Charge Mastery - (Duel Master)
-function GladiatorElementalCharge_MasterLevel2(Level, MasterLevel, Strength, Dexterity, Vitality, Energy)
-	local DamageUp = Strength
-	local DefenseUp = Strength / 15
-	return DamageUp, DefenseUp
-end
-
 -- SkillID: 497, Earth Prison Strengthener - (Duel Master)
 function EarthPrison_Level2()
  local DebuffSuccessRate = 5

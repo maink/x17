@@ -92,6 +92,7 @@
 			<!-- <Spawn Index="251" Distance="0" StartX="116" StartY="141" Dir="3" /> --> <!-- Hanzo the Blacksmith ~ shop managed via ShopList.xml -->
 			<!-- <Spawn Index="255" Distance="0" StartX="123" StartY="135" Dir="1" /> --> <!-- Lumen the Barmaid ~ shop managed via ShopList.xml -->
 			<!-- <Spawn Index="254" Distance="0" StartX="118" StartY="113" Dir="3" /> --> <!-- Pasi the Mage ~ shop managed via ShopList.xml -->
+			<!-- <Spawn Index="891" Distance="0" StartX="119" StartY="111" Dir="3" /> --> <!-- Wizard Gillard ~ shop managed via ShopList.xml -->
 			<Spawn Index="249" Distance="10" StartX="131" StartY="88" Dir="1" /> <!-- Guard -->
 			<Spawn Index="249" Distance="20" StartX="173" StartY="125" Dir="3" />
 			<Spawn Index="249" Distance="20" StartX="94" StartY="130" Dir="7" />
@@ -106,7 +107,7 @@
 			<Spawn Index="543" Distance="0" StartX="144" StartY="127" Dir="3" /> <!-- Gens Duprian Steward -->
 			<Spawn Index="547" Distance="0" StartX="139" StartY="138" Dir="3" /> <!-- Market Union Member Julia -->
 			<Spawn Index="584" Distance="0" StartX="114" StartY="132" Dir="3" /> <!-- Sir Lesnar -->
-			<Spawn Index="764" Distance="0" StartX="131" StartY="147" Dir="3" /> <!-- Cent(Town) -->	
+			<Spawn Index="764" Distance="0" StartX="131" StartY="147" Dir="3" /> <!-- Cent (Town) -->	
 			<Spawn Index="375" Distance="0" StartX="132" StartY="161" Dir="2" /> <!-- Chaos Card Master -->
 		</Spot>
 		<Spot Type="1" Description="Multi-Spawn">

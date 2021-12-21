@@ -400,27 +400,6 @@ function GladiatorHavokSpear(InDamage, Strength, Dexterity, Vitality, Energy, Ba
     return OutDamage
 end
 
--- SkillID: 2014, Spiral Charge
-function GladiatorSpiralCharge(Level, MasterLevel, Strength, Dexterity, Vitality, Energy)
-	local DamageUp = Strength
-	local DefenseUp = Strength / 15
-	return DamageUp, DefenseUp
-end
-
--- SkillID: 2015, Crusher Charge
-function GladiatorCrusherCharge(Level, MasterLevel, Strength, Dexterity, Vitality, Energy)
-	local AtkSpdUp = Strength / 15
-	local DefenseUp = Strength / 15
-	return AtkSpdUp, DefenseUp
-end
-
--- SkillID: 2016, Elemental Charge
-function GladiatorElementalCharge(Level, MasterLevel, Strength, Dexterity, Vitality, Energy)
-	local DamageUp = Strength
-	local DefenseUp = Strength / 15
-	return DamageUp, DefenseUp
-end
-
 -- SkillID: 60 ,61, 62, 65, 74, 78, Force, Fire Burst, Earthshake, Electric Spike, Fire Blast, Fire Scream
 function Lord_CalcSkillBonus(SkillID, InDamage, Strength, Energy, Command)
 	local OutDamage = ( InDamage * ( ( Energy / 20 + 200 ) ) ) / 100

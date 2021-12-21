@@ -31,6 +31,7 @@
 //		~ 18: Elemental Symbol
 //		~ 19: Magic Solution
 //		~ 20: Box of Heaven
+//		~ 21: Maple Play Box
 //
 //	MonsterID: Index of a monster, -1 for any, see MonsterList.xml
 //	MonsterMinLevel: Minimum level of monster, -1 for any level
@@ -83,4 +84,5 @@
   <DropItem EventType="19" MonsterID="-1" MonsterMinLevel="95" MonsterMaxLevel="117" PlayerMinLevel="-1" PlayerMaxLevel="-1" Cat="12" Index="447" MinLevel="0" MaxLevel="0" Durability="0" Rate="2000" Name="Condor Magical Drops" />
   <DropItem EventType="19" MonsterID="-1" MonsterMinLevel="118" MonsterMaxLevel="300" PlayerMinLevel="-1" PlayerMaxLevel="-1" Cat="12" Index="448" MinLevel="0" MaxLevel="0" Durability="0" Rate="2000" Name="Garuda Magical Bell" />
   <DropItem EventType="20" MonsterID="-1" MonsterMinLevel="-1" MonsterMaxLevel="-1" PlayerMinLevel="-1" PlayerMaxLevel="-1" Cat="14" Index="11" MinLevel="7" MaxLevel="0" Durability="0" Rate="500000" Name="Box of Luck" />
+  <DropItem EventType="21" MonsterID="-1" MonsterMinLevel="-1" MonsterMaxLevel="-1" PlayerMinLevel="-1" PlayerMaxLevel="-1" Cat="14" Index="503" MinLevel="0" MaxLevel="0" Durability="0" Rate="80000" Name="Maple Play Box" />
 </EventItemDrop>
