@@ -373,11 +373,11 @@ function GladiatorChaosBlade(InDamage, Strength, Dexterity, Vitality, Energy, Ba
     local OutDamage = 0
     
     if (BarrageCount == 1) then
-        OutDamage = (InDamage * 0.33) * ( 200 + ( Energy / 10 ) ) / 100;
+        OutDamage = (InDamage * 0.33) * ( 200 + ( Strength / 10 ) ) / 100;
     elseif (BarrageCount == 2) then
-        OutDamage = (InDamage * 0.33) * ( 200 + ( Energy / 10 ) ) / 100;
+        OutDamage = (InDamage * 0.33) * ( 200 + ( Strength / 10 ) ) / 100;
     elseif (BarrageCount == 3) then
-        OutDamage = (InDamage * 0.33) * ( 200 + ( Energy / 10 ) ) / 100;		
+        OutDamage = (InDamage * 0.33) * ( 200 + ( Strength / 10 ) ) / 100;		
 	elseif(BarrageCount == 4) then -- Explosion
 		OutDamage = 10000
     end

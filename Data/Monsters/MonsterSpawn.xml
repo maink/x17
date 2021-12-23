@@ -677,6 +677,8 @@
 			<Spawn Index="238" Distance="0" StartX="180" StartY="103" Dir="1" /> <!-- Chaos Goblin -->
 			<Spawn Index="450" Distance="0" StartX="179" StartY="126" Dir="1" /> <!-- Cherry Blossom Spirit -->
 			<Spawn Index="451" Distance="0" StartX="179" StartY="129" Dir="3" /> <!-- Cherry Blossom Tree -->																
+			<Spawn Index="873" Distance="0" StartX="180" StartY="127" Dir="1" /> <!-- Foliage Spirit -->
+			<!-- <Spawn Index="874" Distance="0" StartX="179" StartY="129" Dir="3" /> --> <!-- Maple Tree -->			
 			<!-- <Spawn Index="370" Distance="0" StartX="175" StartY="103" Dir="2" /> --> <!-- Jerridon -->
 			<Spawn Index="257" Distance="0" StartX="167" StartY="117" Dir="1" /> <!-- Shadow Phantom Soldier -->
 			<Spawn Index="257" Distance="0" StartX="166" StartY="85" Dir="2" />

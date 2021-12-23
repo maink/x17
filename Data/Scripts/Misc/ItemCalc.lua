@@ -165,6 +165,10 @@ function Wings_DecreaseHP(WingID, WingDur, Class, Skill)
 		HPDec = 3
 	end
 	
+	if (Class == CLASS_LEMURIAMAGE and (Skill == 246 or Skill == 855 or Skill == 856 or Skill == 1218)) then
+		HPDec = 0
+	end
+	
 	return HPDec
 end
 	
