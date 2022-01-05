@@ -1255,9 +1255,9 @@ function LemuriaMageDefense(Class, Index, TargetIndex, Energy)
 			SkillEffect = 2 + Energy / 16
 		elseif (Class == CLASS_SLAYER) then
 			SkillEffect = 2 + Energy / 16
-		elseif (Class == CLASS_LIGHTWIZARD) then
+		elseif (Class == CLASS_GUNCRUSHER) then
 			SkillEffect = 2 + Energy / 16
-		elseif (Class == CLASS_SLAYER) then
+		elseif (Class == CLASS_LIGHTWIZARD) then
 			SkillEffect = 2 + Energy / 16
 		elseif (Class == CLASS_LEMURIAMAGE) then
 			SkillEffect = 2 + Energy / 16
