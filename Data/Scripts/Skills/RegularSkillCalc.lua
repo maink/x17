@@ -435,7 +435,7 @@ function ChaoticDiseierCalc(InDamage, Energy)
 end
 
 -- SkillID: 737, Wind Soul - (Lord Emperor)
-function LordWindSoulCalcDamage(InDamage, Energy)
+function LordWindSoulCalcDamage(InDamage, Strength, Dexterity, Vitality, Energy, Command)
 	local OutDamage = InDamage * (Energy / 25 + 200) / 100
 	
 	return OutDamage
