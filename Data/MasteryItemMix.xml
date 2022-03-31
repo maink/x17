@@ -43,6 +43,7 @@
 //		~ 4: Keep set options
 //		~ 8: Generate new set option
 //		~ 16: Generate new JoL option (+4 to +16), works with option 8 only, e.g. 16+8=24
+//		~ 32: Keeps Mastery Bonus option from source item, otherwise generates new option on a basis of MasteryBonusOptions.xml
 //		~ 128: Copy all options from main material item, including item level and durability
 //
 //	UpgradeOptMaxCnt: Maximum number of options to apply to earring upon upgrade, if source Earring has 3 or more options and value of UpgradeOptMaxCnt is set to 2-5 then output Earring will come randomly with 2-5 options, if UpgradeOptMaxCnt is set to -1 then system will draw randomly 1-5 with a rates defined in EarringAttribute.xml
