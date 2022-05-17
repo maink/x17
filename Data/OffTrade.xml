@@ -10,12 +10,6 @@
 //
 // ### OffTrade ###
 //	Enable: Activates or deactivates the system, 0/1
-//	CoinType:
-//		~ 0: Zen
-//		~ 1: WCoin
-//		~ 2: Goblin Point
-//		~ 3: Ruud
-//
 //	MaxTime: Maximum tie to stay in OffTrade, minutes or -1 to unlimited
 //
 // ### OffTrade::Map ###
@@ -29,7 +23,7 @@
 // STRICTLY NO COMMENTS INSIDE TAGS
 -->
 
-<OffTrade Enable="0" CoinType="0" MaxTime="-1">
+<OffTrade Enable="0" MaxTime="-1">
 	<Map Number="0"  Disable="0" /> <!-- Lorencia -->
 	<Map Number="1"  Disable="0" /> <!-- Dungeon (1 ~ 3) -->
 	<Map Number="2"  Disable="0" /> <!-- Devias -->

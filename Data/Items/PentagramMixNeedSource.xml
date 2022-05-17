@@ -3,7 +3,7 @@
 // ============================================================
 // == INTERNATIONAL GAMING CENTER NETWORK
 // == www.igcn.mu
-// == (C) 2019 IGC-Network (R)
+// == (C) 2022 IGC-Network (R)
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 // == File is a part of IGCN Group MuOnline Server files.
 // ============================================================
@@ -11,6 +11,9 @@
 //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 //~~ Changes to the file require update of selected client files, see descriptions below
 //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+//
+// ### PentagramSystem ###
+//	AllowSameEnhancedOption: Allows to create pentagrams with same Enhanced option on same item, 0/1
 //
 // ### PentagramSystem::CombinationMaterials::Combination ### - Refine Mixes, Adniel NPC
 //	Index: Index of a mix (unique)
@@ -127,7 +130,7 @@
 // STRICTLY NO COMMENTS INSIDE TAGS
 -->
 
-<PentagramSystem>
+<PentagramSystem AllowSameEnhancedOption="0">
 	<CombinationMaterials> <!-- Modifications require changes to PentagramMixNeedSource.bmd (group 0) -->
 		<Combination Index="1" SuccessRate="5000" ItemCat1="12" ItemIndex1="145" ItemCount1="1" ItemCat2="14" ItemIndex2="13" ItemCount2="1" ItemCat3="-1" ItemIndex3="-1" ItemCount3="0" ItemCat4="-1" ItemIndex4="-1" ItemCount4="0" ItemCat5="-1" ItemIndex5="-1" ItemCount5="0" ReqMoney="100000" /> <!-- Errtel Creation -->
 		<Combination Index="2" SuccessRate="10000" ItemCat1="14" ItemIndex1="309" ItemCount1="1" ItemCat2="14" ItemIndex2="310" ItemCount2="1" ItemCat3="14" ItemIndex3="311" ItemCount3="1" ItemCat4="14" ItemIndex4="312" ItemCount4="1" ItemCat5="-1" ItemIndex5="-1" ItemCount5="0" ReqMoney="100000000" /> <!-- Slot of Radiance Assembly -->

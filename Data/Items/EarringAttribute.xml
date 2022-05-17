@@ -3,7 +3,7 @@
 // ============================================================
 // == INTERNATIONAL GAMING CENTER NETWORK
 // == www.igcn.mu
-// == (C) 2019 IGC-Network (R)
+// == (C) 2022 IGC-Network (R)
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 // == File is a part of IGCN Group MuOnline Server files.
 // ============================================================
@@ -25,19 +25,7 @@
 //
 // ### EarringAttribute::OptionLinkSettings::Option ###
 //	LinkID: Unique identifier of option link
-//	IndexX: Option index (1-5)
-//		9: Attack Speed Increase
-//		11: Maximum Life Increase
-//		12: Maximum Mana Increase
-//		14: AG Automatic Recovery Increase
-//		15: Critical Damage Probability Increase
-//		16: Critical Damage Power Increase
-//		17: Excellent Damage Probability Increase
-//		18: Excellent Damage Power Increase
-//		19: Skill Damage Increases
-//		21: Ignore Enemy Defense
-//		23: ATK / HP
-//		24: All Stats Increase
+//	IndexX: Option index (1-5), check OptionsList section for available option indexes
 //
 //	ValueX: Option value index, see OptionSettings section (1-5)
 //	RateX: Chance rate of getting specified option, n/10000 (1-5)
