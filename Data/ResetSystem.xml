@@ -25,6 +25,7 @@
 //	Cost: Cost of the reset in Zen, max value: 200000000
 //	MultiplyCostPerResets: Multiply cost by number of resets, 0/1
 //	MaxCost: maximum cost of reset in Zen, max value: MaxCost
+//	MinVipType: Minimum VIP Level to use Restets System
 //	MaxReset: Maximum number of resets
 //
 // ### ResetSystem::Settings ###
@@ -45,7 +46,7 @@
 //	MoveToCharSelectWindow: Determines whether to force move to character selection screen after reset, 0/1
 //	StayOnPosition: Determines whether character should keep the same position after reset, 0/1
 //	MaxResetPoints: Maximum number of free level up points after reset
-//	LevelAfterReset: Regular level to set after reset, minimum value is 1, free stat points are calculated and added automatically
+//	LevelAfterRese: Regular level to set after reset, minimum value is 1, free stat points are calculated and added automatically
 //	MasterLevelAfterReset: Master level to set after reset, used if set greater than 0, free stat points are calculated and added automatically
 //
 // ### ResetSystem::DynamicResetRangeList::Range ###
@@ -92,7 +93,7 @@
 -->
 
 <ResetSystem Enable="1">
-<Requirements MinLevelMode="0" MinLevel="400" Cost="5000000" MultiplyCostPerResets="1" MaxCost="150000000" MaxReset="100" />
+<Requirements MinLevelMode="0" MinLevel="400" Cost="5000000" MultiplyCostPerResets="1" MaxCost="150000000" MaxReset="100" MinVipType="0" />
 <Settings RemoveEquipment="1" RemoveFromParty="1" EnableMuHelper="0" ClearBuffs="1" ResetStats="0" SaveOldStatPoint="0" ResetMasterLevel="0" MoveToCharSelectWindow="0" StayOnPosition="0" MaxResetPoints="0" LevelAfterReset="1" MasterLevelAfterReset="0" />
 
 	<DynamicResetRangeList> <!-- First rule that matches player requirements will be applied, therefore order of entries matters -->
