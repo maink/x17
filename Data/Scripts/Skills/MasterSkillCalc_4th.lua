@@ -469,3 +469,11 @@ function LightWizardDragonViolent_4thEnchant_Calc(InDamage, Strength, Dexterity,
 
 	return OutDamage
 end
+
+-- SkillID: 1230, Bless Enhancement Skill
+function Bless_4thEnchant_Elf(Energy)
+	local SkillEffect = Energy / 100
+	
+	return SkillEffect
+end
+
