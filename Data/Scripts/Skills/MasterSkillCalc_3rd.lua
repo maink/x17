@@ -449,7 +449,7 @@ function PoisonArrow_MasterLevel2_DotDamage(InDamage, MasterEffect)
 end
 
 -- SkillID: 429, Party Healing Strengthener - (High Elf)
-function ElfPartyHealing(Strength, Dexterity, Vitality, Energy)
+function ElfPartyHealing(Energy)
 	local HP = Energy / 6 + 6
 	
 	return HP
